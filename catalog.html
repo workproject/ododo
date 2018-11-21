@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="assets/js/jquery-ui/jquery-ui.min.css">
+	<link rel="stylesheet" href="assets/js/jquery-ui/jquery-ui.theme.min.css">
+	<link rel="stylesheet" href="/resources/demos/style.css">
+	<link rel="stylesheet" href="assets/css/libs.css">
+	<link rel="stylesheet" href="assets/css/main.css">
+
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body>
+	<div class="wrapper-all">
+		<header>
+			<div class="wrapper">
+				<div class="row wr-t">
+					<div class="lef col-xl-4 col-lg-5 col-md-6 col-sm-6 clearfix">
+						<a class="logo" href="#"><img src="assets/img/logo.jpg" alt="99reb.ru"></a>
+						<div class="lef-i">
+							<span>Москва</span>
+							<p>Новое слово <br> в интернет торговле</p>
+						</div>
+					</div>
+					<div class="mid col-xl-5 col-lg-12 col-md-12 col-sm-12">
+						<form class="rig-i" action="" method="post">
+							<input type="text" name="" placeholder="Поиск по всем товарам">
+							<input type="submit" value="" name="">
+						</form>
+					</div>
+					<div class="rig col-xl-3 col-lg-7 col-md-5 col-sm-5">
+						<div class="in-r clearfix">
+							<div class="l-i">
+								<a href="#">Регистрация</a>
+								<div class="bg-a">
+									<a href="#">Вход</a>
+								</div>
+							</div>
+							<div class="r-i">
+								<a href="#" class="like">
+									<span>0</span>
+									<div></div>
+								</a>
+								<a href="" class="cart">
+									<span>34</span>
+									<div></div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div class="main-menu row">
+				<div class="in-rt wr-m">
+					<div style="padding: 0;" class="wrapper">
+						<nav class="col-xl-9 col-lg-9 col-md-12 menu">
+							<ul>
+								<li><a class="c-h" href="#">Каталог товаров <span></span></a></li>
+								<li><a href="#">Доставка и оплата</a></li>
+								<li><a href="#">Акции и скидки</a></li>
+								<li><a href="#">Помощь</a></li>
+								<li><a href="#">Программа лояльности</a></li>
+								<li><a href="#">Контакты</a></li>
+							</ul>
+						</nav>
+						<div class="contact col-xl-3 col-lg-3">
+							<div class="row">
+								<div class="col-xl-5 col-lg-5">Пн-вс 9:00 - 20:00</div>
+								<a href="tel:+7 495 230 95 45" class="col-xl-7 col-lg-7">+7 495 230 95 45</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="ban-h">
+				<div class="wrapper">
+					<div style="padding-left: 32px;" class="row">
+						<div style="padding-right: 0;" class="l-gg col-xl-8" id="breadcrumb">
+							<a class="main" href="index.html">Главная</a>
+							<a class="main" href="index.html">Электроника</a>
+							<div style="float: left;" class="h1">Наушники</div>
+						</div>
+						<div class="col-xl-4 ssort">
+							<form style="float: right; margin-right: 20px;" action="">
+								<label class="lof">
+									Сортировка: <select class="select_box">
+									<option value="По рейтингу" selected>По рейтингу</option>
+									<option value="По Названию">По Названию</option>
+									<option value="По цене">По цене</option>
+									</select>
+								</label>
+								<a class="kub" href="#"></a><a class="meno" href="#"></a>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div style="margin-bottom: 30px;" class="wrapper">
+				<div class="row">
+					<div class="col-xl-3 col-lg-3 col-md-4">
+						<nav class="help">
+							<ul class="catalog">
+								<li>
+									<a href="#">Электроника</a>
+									<ul class="two-c">
+										<li><a href="#">Цифровые фоторамки <span>34</span></a></li>
+										<li><a href="#">Аккумуляторы <span>34</span></a></li>
+										<li><a href="#">Чехлы <span>34</span></a></li>
+									</ul>
+								</li>
+								<li><a href="#">Игрушки и хобби</a></li>
+								<li><a href="#">Автотовары</a>
+									<li><a href="#">Красота и здоровье</a>
+										<li><a href="#">Для курящих</a>
+											<li><a href="#">Для дома и дачи</a>
+												<li><a href="#">Разное</a>
+												</ul>
+												<div class="ln">Цена:</div>
+												<div class="prt"></div>
+												<div id="slider-range"></div>
+												<div id="slider-prices">
+													<div class="preo"><input type="text" value="99" name="min"><span>руб.</span></div> <span class="ln"> - </span><div class="preo"><input type="text" value="5999" name="max"><span>руб.</span></div>
+												</div>
+												<script>
+													var min = 99,
+													max = 5999;
+													$( function() {
+														$( "#slider-range" ).slider({
+															range: true,
+															min: 0,
+															max: 10000,
+															values: [ min, max ],
+															slide: function( event, ui ) {
+																$('.prt').html('<strong>'+ ui.values[ 0 ] +'</strong><span>руб.</span>' + '<div style="display: inline-block; float: right; margin-right: 40px;"><strong>'+ ui.values[ 1 ] +'</strong><span style="position: relative; top: 3px;">руб.</span></div>');
+																$( "#price" ).val(+ ui.values[ 0 ] +'/'+ ui.values[ 1 ] );
+																$('#slider-prices input[name=min]').val( ui.values[ 0 ]);
+																$('#slider-prices input[name=max]').val( ui.values[ 1 ]);
+															},
+															create: function(event, ui) {
+																$( ".prt" ).html('<strong>'+ min +'</strong><span>руб.</span>' + '<div style="display: inline-block; float: right; margin-right: 40px;"><strong>'+ max +'</strong><span style="position: relative; top: 3px;">руб.</span></div>');
+																$( "#price" ).val(min +'/'+ max );
+
+															}
+														});
+													});
+												</script>
+											</nav>
+											<div class="banne">
+												<a href="#" class="ban">
+													<img src="assets/img/banner-l1.jpg" alt="">
+												</a>
+											</div>
+											<div class="banne">
+												<a href="#" class="ban">
+													<img src="assets/img/banner-l2.jpg" alt="">
+												</a>
+											</div>
+										</div>
+										<div class="col-xl-9 col-lg-9 col-md-8 drk">
+												<div style="border: none; margin-bottom: 0" class="wr-csl sld-def">
+													<div class="slds">
+														<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m1.jpg);">
+															<div class="shr sale"></div>
+														</div></a>
+														<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+														<div class="txt-slk">
+															Батарейки C Kodak R14 (2 шт.)
+														</div>
+														<div class="bott clearfix">
+															<div class="left-bb">
+																<div class="orig">1999 руб.</div>
+																<div>
+																	<span class="num">299</span><span class="rub">руб.</span>
+																</div>
+															</div>
+															<div class="right-bb">
+																<a class="ear" href="#"></a>
+																<a class="cc" href="#"></a>
+															</div>
+														</div>
+													</div>
+													<div class="slds">
+														<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m1.jpg);">
+															<div class="shr sale"></div>
+														</div></a>
+														<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+														<div class="txt-slk">
+															Батарейки C Kodak R14 (2 шт.)
+														</div>
+														<div class="bott clearfix">
+															<div class="left-bb">
+																<div class="orig">1999 руб.</div>
+																<div>
+																	<span class="num">299</span><span class="rub">руб.</span>
+																</div>
+															</div>
+															<div class="right-bb">
+																<a class="ear" href="#"></a>
+																<a class="cc" href="#"></a>
+															</div>
+														</div>
+													</div>
+													<div class="slds">
+														<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m1.jpg);">
+															<div class="shr sale"></div>
+														</div></a>
+														<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+														<div class="txt-slk">
+															Батарейки C Kodak R14 (2 шт.)
+														</div>
+														<div class="bott clearfix">
+															<div class="left-bb">
+																<div class="orig">1999 руб.</div>
+																<div>
+																	<span class="num">299</span><span class="rub">руб.</span>
+																</div>
+															</div>
+															<div class="right-bb">
+																<a class="ear" href="#"></a>
+																<a class="cc" href="#"></a>
+															</div>
+														</div>
+													</div>
+													<div class="slds">
+														<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m1.jpg);">
+															<div class="shr sale"></div>
+														</div></a>
+														<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+														<div class="txt-slk">
+															Батарейки C Kodak R14 (2 шт.)
+														</div>
+														<div class="bott clearfix">
+															<div class="left-bb">
+																<div class="orig">1999 руб.</div>
+																<div>
+																	<span class="num">299</span><span class="rub">руб.</span>
+																</div>
+															</div>
+															<div class="right-bb">
+																<a class="ear" href="#"></a>
+																<a class="cc" href="#"></a>
+															</div>
+														</div>
+													</div>
+													<div class="slds">
+														<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m1.jpg);">
+															<div class="shr sale"></div>
+														</div></a>
+														<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+														<div class="txt-slk">
+															Батарейки C Kodak R14 (2 шт.)
+														</div>
+														<div class="bott clearfix">
+															<div class="left-bb">
+																<div class="orig">1999 руб.</div>
+																<div>
+																	<span class="num">299</span><span class="rub">руб.</span>
+																</div>
+															</div>
+															<div class="right-bb">
+																<a class="ear" href="#"></a>
+																<a class="cc" href="#"></a>
+															</div>
+														</div>
+													</div>
+													<div class="slds">
+														<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m1.jpg);">
+															<div class="shr sale"></div>
+														</div></a>
+														<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+														<div class="txt-slk">
+															Батарейки C Kodak R14 (2 шт.)
+														</div>
+														<div class="bott clearfix">
+															<div class="left-bb">
+																<div class="orig">1999 руб.</div>
+																<div>
+																	<span class="num">299</span><span class="rub">руб.</span>
+																</div>
+															</div>
+															<div class="right-bb">
+																<a class="ear" href="#"></a>
+																<a class="cc" href="#"></a>
+															</div>
+														</div>
+													</div>
+													<div class="slds">
+														<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m1.jpg);">
+															<div class="shr sale"></div>
+														</div></a>
+														<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+														<div class="txt-slk">
+															Батарейки C Kodak R14 (2 шт.)
+														</div>
+														<div class="bott clearfix">
+															<div class="left-bb">
+																<div class="orig">1999 руб.</div>
+																<div>
+																	<span class="num">299</span><span class="rub">руб.</span>
+																</div>
+															</div>
+															<div class="right-bb">
+																<a class="ear" href="#"></a>
+																<a class="cc" href="#"></a>
+															</div>
+														</div>
+													</div>
+													<div class="slds">
+														<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m1.jpg);">
+															<div class="shr sale"></div>
+														</div></a>
+														<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+														<div class="txt-slk">
+															Батарейки C Kodak R14 (2 шт.)
+														</div>
+														<div class="bott clearfix">
+															<div class="left-bb">
+																<div class="orig">1999 руб.</div>
+																<div>
+																	<span class="num">299</span><span class="rub">руб.</span>
+																</div>
+															</div>
+															<div class="right-bb">
+																<a class="ear" href="#"></a>
+																<a class="cc" href="#"></a>
+															</div>
+														</div>
+													</div>
+													<div class="slds">
+														<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m1.jpg);">
+															<div class="shr sale"></div>
+														</div></a>
+														<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+														<div class="txt-slk">
+															Батарейки C Kodak R14 (2 шт.)
+														</div>
+														<div class="bott clearfix">
+															<div class="left-bb">
+																<div class="orig">1999 руб.</div>
+																<div>
+																	<span class="num">299</span><span class="rub">руб.</span>
+																</div>
+															</div>
+															<div class="right-bb">
+																<a class="ear" href="#"></a>
+																<a class="cc" href="#"></a>
+															</div>
+														</div>
+													</div>
+													<div class="slds">
+														<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m1.jpg);">
+															<div class="shr sale"></div>
+														</div></a>
+														<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+														<div class="txt-slk">
+															Батарейки C Kodak R14 (2 шт.)
+														</div>
+														<div class="bott clearfix">
+															<div class="left-bb">
+																<div class="orig">1999 руб.</div>
+																<div>
+																	<span class="num">299</span><span class="rub">руб.</span>
+																</div>
+															</div>
+															<div class="right-bb">
+																<a class="ear" href="#"></a>
+																<a class="cc" href="#"></a>
+															</div>
+														</div>
+													</div>
+													<div class="slds">
+														<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m1.jpg);">
+															<div class="shr sale"></div>
+														</div></a>
+														<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+														<div class="txt-slk">
+															Батарейки C Kodak R14 (2 шт.)
+														</div>
+														<div class="bott clearfix">
+															<div class="left-bb">
+																<div class="orig">1999 руб.</div>
+																<div>
+																	<span class="num">299</span><span class="rub">руб.</span>
+																</div>
+															</div>
+															<div class="right-bb">
+																<a class="ear" href="#"></a>
+																<a class="cc" href="#"></a>
+															</div>
+														</div>
+													</div>
+													<div class="slds">
+														<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m1.jpg);">
+															<div class="shr sale"></div>
+														</div></a>
+														<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+														<div class="txt-slk">
+															Батарейки C Kodak R14 (2 шт.)
+														</div>
+														<div class="bott clearfix">
+															<div class="left-bb">
+																<div class="orig">1999 руб.</div>
+																<div>
+																	<span class="num">299</span><span class="rub">руб.</span>
+																</div>
+															</div>
+															<div class="right-bb">
+																<a class="ear" href="#"></a>
+																<a class="cc" href="#"></a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											
+										</div>
+									</div>
+								</div>
+								<div class="poginas">
+									<div class="num-pg">
+										<a href="#" class="prev str">
+											<span></span>
+										</a>
+										<a href="#">1</a>
+										<a href="#">2</a>
+										<span>3</span>
+										<a href="#">4</a>
+										<a href="#">5</a>
+										<a href="#" class="next str">
+											<span></span>
+										</a>
+									</div>
+								</div>
+								
+<script>
+$(document).ready(function(){
+$("#breadcrumb").append("<span>13 товаров</span>");
+});
+</script>
+								
+								<div class="form">
+									<div class="ba">
+										<div class="fgh wrapper clearfix">
+											<div class="txt-fs clearfix">
+												<div class="txt-fa">
+													Подпишитесь <br>
+													на последние <br>
+													обновления 
+												</div>
+												<div class="txt-b">
+													И узнавайте о новинках <br>
+													и специальных предложениях <br>
+													первыми
+												</div>
+											</div>
+											<div class="in-f">
+												<form action="" method="post">
+													<input type="text" placeholder="Ваш E-mail">
+													<label class="s"><input type="submit" value=""></label>
+													<div class="txt-ff">Отправляя заявку Вы подтврждаете согласие <br>
+														на обработку <a href="#">персональных данных</a></div>
+													</form>
+												</div>
+											</div>
+										</div>
+									</div>
+								</main>
+								<footer class="fn">
+									<div class="wrapper">
+										<div class="menu-f des-f">
+											<ul>
+												<li><a href="#">Наушники</a></li>
+												<li><a href="#">Радиоприемники</a></li>
+												<li><a href="#">Часы и будильники</a></li>
+												<li><a href="#">Компьютерные мышки и клавиатуры</a></li>
+												<li><a href="#">Калькуляторы</a></li>
+												<li><a href="#">Лампы и ночники</a></li>
+												<li><a href="#">Разное</a></li>
+												<div class="social">
+													<a href="#"></a>
+													<a href="#"></a>
+													<a href="#"></a>
+													<a href="#"></a>
+												</div>
+											</ul>
+											<ul>
+												<li><a href="#">USB Фешки и карты памяти</a></li>
+												<li><a href="#">Exployd</a></li>
+												<li><a href="#">OTG</a></li>
+												<li><a href="#">Samsung</a></li>
+												<li><a href="#">Smartbuy</a></li>
+												<li><a href="#">Sony</a></li>
+												<li><a href="#">Диски</a></li>
+												<li><a href="#">Картридеры и хаб</a></li>
+											</ul>
+											<ul>
+												<li><a href="#">Батарейки, аккумуляторы и зарядки</a></li>
+												<li><a href="#">DURACELL</a></li>
+												<li><a href="#">Energizer</a></li>
+												<li><a href="#">GP Super</a></li>
+												<li><a href="#">Kodak</a></li>
+												<li><a href="#">Panasonic</a></li>
+												<li><a href="#">Pleomax</a></li>
+												<li><a href="#">Sony</a></li>
+												<li><a href="#">Varta</a></li>
+												<li><a href="#">Videx</a></li>
+												<li><a href="#">Дешево</a></li>
+												<li><a href="#">Космос</a></li>
+											</ul>
+											<ul>
+												<li><a href="#">Аксессуары для телефонов</a></li>
+												<li><a href="#">Блоки питания</a></li>
+												<li><a href="#">Пауэр-банки (Power Bank)</a></li>
+												<li><a href="#">Портативные колонки</a></li>
+												<li><a href="#">Моноподы для селфи</a></li>
+												<li><a href="#">Защитные стекла</a></li>
+												<li><a href="#">Кабели для телефонов и планшетов</a></li>
+												<li>
+													<div class="contact">
+														<div class="fk">Пн-вс 9:00 - 20:00</div>
+														<a href="tel:+7 495 230 95 45" class="fks">+7 495 230 95 45</a>
+														<a class="ma" href="mailto:Info@99rub.ru">Info@99rub.ru</a>
+													</div>
+												</li>
+											</ul>
+											<ul>
+												<li><a href="#">Информация для покупателей</a></li>
+												<li><a href="#">Акции и скидки</a></li>
+												<li><a href="#">Помощь</a></li>
+												<li><a href="#">Доставка</a></li>
+												<li><a href="#">Оплата</a></li>
+												<li><a href="#">*Программа лояльности</a></li>
+												<li><a href="#">Правовая информация</a></li>
+												<li><a href="#">Контакты</a></li>
+											</ul>
+										</div>
+										<div class="mob-f">
+											<ul>
+												<li><a href="#">Наушники</a></li>
+												<li><a href="#">Радиоприемники</a></li>
+												<li><a href="#">Часы и будильники</a></li>
+												<li><a href="#">Компьютерные мышки и клавиатуры</a></li>
+												<li><a href="#">Калькуляторы</a></li>
+												<li><a href="#">Лампы и ночники</a></li>
+												<li><a href="#">Разное</a></li>
+												<div class="social">
+													<a href="#"></a>
+													<a href="#"></a>
+													<a href="#"></a>
+													<a href="#"></a>
+												</div>
+											</ul>
+											<div class="contact">
+												<div class="fk">Пн-вс 9:00 - 20:00</div>
+												<a href="tel:+7 495 230 95 45" class="fks">+7 495 230 95 45</a>
+												<a class="ma" href="mailto:Info@99rub.ru">Info@99rub.ru</a>
+											</div>
+										</div>
+										<div class="pay">
+											<a href="#"></a>
+											<a href="#"></a>
+											<a href="#"></a>
+										</div>
+										<div class="bot">
+											<div class="copy">© «99RUB» 2002—2017. Все права защищены.</div>
+											<div class="soc">
+												<img src="assets/img/soc-s.png" alt="">
+											</div>
+											<a class="mtd" href="https://www.matadoro.ru/">Создание сайтов в Москве — <img src="assets/img/matador.png" alt="Матадор"></a>
+										</div>
+									</div>
+								</footer>
+							</div>
+							<div class="hdn">
+								<div class="mobile-menu"></div>
+								<div class="shild-men">
+									<div class="close-m">
+									</div>
+									<nav class="nav-mmt menu">
+										<ul class="clearfix">
+											<li><a href="#">Каталог товаров</a></li>
+											<li><a href="#">доставка и оплата</a></li>
+											<li><a href="#">акции и скидки</a></li>
+											<li><a href="#">Помощь</a></li>
+											<li><a href="#">программа лояльности</a></li>
+											<li><a href="#">контакты</a></li>
+										</ul>
+									</nav>
+								</div>
+							</div>
+
+							<script>
+								$(document).ready(function(){
+									$(".owl-carousel").owlCarousel({
+										nav:true,
+										margin:25,
+										navText: '',
+										dots: true,
+										responsive:{
+											320: {
+												items: 2
+											},
+											450: {
+												items: 2
+											},
+											768: {
+												items: 2
+											},
+											992: {
+												items: 3
+											},
+											1200: {
+												items: 4
+											},
+											1440: {
+												items: 4
+											}
+										}
+									});
+								})
+							</script>
+
+							<style>
+								.l-gg {
+									padding: 26px 0 34px 37px;
+								}
+
+								.l-gg span {
+									margin-left: 10px !important;
+								}
+
+								.l-gg span {
+									margin-top: 11px;
+									display: inline-block;
+									margin-left: 10px;
+								}
+
+								.ban-h {
+									padding-right: 60px;
+								}
+
+								.main {
+									margin-left: 12px;
+								}
+							</style>
+
+							<script src="assets/js/jquery.selectbox.min.js"></script>
+							<script src="assets/js/jquery.bxslider.min.js"></script>
+							<script src="assets/js/owl.carousel.min.js"></script>
+							<script src="assets/js/jquery.matchHeight.js"></script>
+							<script src="assets/js/jquery.mCustomScrollbar.js"></script>
+							<script src="assets/js/jquery.inputmask.js"></script>
+							<script src="assets/js/jquery.fancybox.min.js"></script>
+							<script src="assets/js/jquery-ui/jquery-ui.js"></script>
+							<script src="assets/js/main.js"></script>
+						</body>
+						</html>

@@ -1,0 +1,53 @@
+<div style="max-width: 450px; width: 100%;">
+	<form method="POST" id="fast_order">
+	<div class="fast_order_h">Быстрый заказ товара</div>
+	<div class="popup_frame_img" style="background-image: url('assets/img/sld-m8.jpg')"></div>
+	<div class="popup_frame_elname">Игрушка - сердитые птички</div>
+	<div class='f_order_label'>
+	<span>Ваше имя</span>
+	<input type="text" maxlength="50" value="" name="name">
+	</div>
+	<div class='f_order_label'>
+	<span>Ваш телефон</span>
+	<input type="text" maxlength="25" value="" name="phone">
+	</div>
+	<input type="submit" name='send' value='Заказать' class="popup_frame_cart">
+	</form>
+</div>
+<style>
+#fast_order{
+text-align:center;
+}
+.fast_order_h{
+font-weight: bold;
+margin-bottom: 20px;
+font-size: 20px;
+}
+.f_order_label{
+margin-bottom: 15px;
+}
+.f_order_label span{
+display: block;
+margin-bottom: 4px;
+color: #555;
+}
+.f_order_label input{
+display: block;
+padding: 12px 20px;
+width: 100%;
+border: 1px solid #dbdbdb;
+color: #333;
+font-family: "ProximaNovaRegular";
+font-size: 16px;
+border-radius: 15px;
+outline: none;
+text-align: center;
+line-height: 1;
+}
+#fast_order input[type=submit]{
+border: none;
+width: 150px;
+padding: 10px 10px;
+height: auto;
+}
+</style>
