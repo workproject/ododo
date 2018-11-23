@@ -8,59 +8,48 @@
 	<link rel="stylesheet" href="assets/css/libs.css">
 	<link rel="stylesheet" href="assets/css/swiper.min.css">
 	<link rel="stylesheet" href="assets/css/main.css">
-w
+	<link rel="stylesheet" href="assets/css/main_extend.css">
+	
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </head>
 <body>
-	<div class="wrapper-all">
+	<div class="wrapper-all"> 
 		<header>
-			<div class="wrapper">
-				<div class="row wr-t">
-					<div class="lef col-xl-4 col-lg-5 col-md-6 col-sm-6 clearfix">
-						<a class="logo" href="#"><img src="assets/img/logo.jpg" alt="99reb.ru"></a>
-						<div class="lef-i">
-							<!-- <span>Москва</span>
-								<p>Новое слово <br> в интернет торговле</p> -->
-								<p>Работаем <br> по всей России</p>
+				<div class="in-rt wr-m">
+						<div style="padding: 0;" class="wrapper">
+						<div class="row">
+						<div class="col-xl-3 citytext">
+							<a href="">Москва</a><span>|</span>Работаем по всей России
+						</div>
+							<nav class="col-xl-6 col-lg-6 col-md-12 menu">
+							<div class="menucol">
+								<ul>
+									<li><a href="#">Доставка и оплата</a></li>
+									<li><a href="#">Акции и скидки</a></li>
+									<li><a href="#">Помощь</a></li>
+									<li><a href="#">Программа лояльности</a></li>
+									<li><a href="#">Контакты</a></li>
+								</ul>
+								</div>
+							</nav>
+							<div class="contacttop col-xl-3 col-lg-6">
+								<a href="tel:+7 495 230 95 45">+7 495 230 95 45</a>
+								<div>Пн-вс 9:00 - 20:00</div>
 							</div>
-						</div>
-						<div class="mid col-xl-5 col-lg-12 col-md-12 col-sm-12">
-							<form class="rig-i" action="" method="post">
-								<input type="text" name="" placeholder="Поиск по всем товарам">
-								<input type="submit" value="" name="">
-							</form>
-						</div>
-						<div class="rig col-xl-3 col-lg-7 col-md-5 col-sm-5">
-							<div class="in-r clearfix">
-								<div class="l-i">
-									<a href="#">Регистрация</a>
-									<div class="bg-a">
-										<a href="#">Вход</a>
-									</div>
-								</div>
-								<div class="r-i">
-									<a href="#" class="like">
-										<span>0</span>
-										<div></div>
-									</a>
-									<a href="" class="cart">
-										<span>34</span>
-										<div></div>
-									</a>
-								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-			</header>
-			<main>
-				<div class="main-menu row">
-					<div class="in-rt wr-m">
-						<div style="padding: 0;" class="wrapper">
-							<nav class="col-xl-9 col-lg-9 col-md-12 menu">
+					<div class="clear"></div>
+					<div class="wrapper">
+				<div class="row wr-t">
+				
+					<div class="lf1 col-xl-4 col-lg-6 col-md-6 col-sm-12 clearfix">
+						<a class="logo" href="#"><img src="assets/img/logo.png" alt="99reb.ru"></a>
+							<nav class="menu">
 								<ul>
-									<li class="cfg">
-									<a class="c-h" href="#">Каталог товаров <span></span></a>
+									<li class="cfg rel">
+									<a class="c-h catbut" href="#">Каталог товаров <span></span></a>
 									<div class="up1">
 										<ul>
 											<li style="margin-top: 10px;" class="u11">
@@ -123,22 +112,40 @@ w
 										</ul>
 									</div>
 								</li>
-									<li><a href="#">Доставка и оплата</a></li>
-									<li><a href="#">Акции и скидки</a></li>
-									<li><a href="#">Помощь</a></li>
-									<li><a href="#">Программа лояльности</a></li>
-									<li><a href="#">Контакты</a></li>
+				
 								</ul>
-							</nav>
-							<div class="contact col-xl-3 col-lg-3">
-								<div class="row">
-									<div class="col-xl-5 col-lg-5">Пн-вс 9:00 - 20:00</div>
-									<a href="tel:+7 495 230 95 45" class="col-xl-7 col-lg-7">+7 495 230 95 45</a>
+							</nav>						
+						
+
+						</div>
+						<div class="mid  col-xl-4 col-lg-12 col-md-12 col-sm-12">
+							<form class="rig-i" action="" method="post">
+								<input type="text" name="" placeholder="Поиск по всем товарам">
+								<input type="submit" value="" name="">
+							</form>
+						</div>
+						<div class="rig col-xl-4 col-lg-6 col-md-6 col-sm-12">
+							<div class="in-r clearfix">
+								<div class="r-i">
+									<a href="" class="cart">
+										<span>34</span>
+										Корзина
+									</a>
+								</div>							
+								<div class="l-i">
+									<a href="#">Регистрация</a>
+									<div class="bg-a">
+										<a href="#">Вход</a>
+									</div>
 								</div>
+
 							</div>
 						</div>
 					</div>
-				</div>
+					</div>
+			</header>
+			<main>
+
 				<div class="wrapper">
 					<div class="ss clearfix">
 						<div class="sld">
@@ -147,39 +154,43 @@ w
 									<img src="assets/img/sld.jpg">
 									<div class="wr-tt">
 										<div class="txt">Спинеры <span>От 99 <i>руб.</i></span></div>
-										<a class="btn" href="#">Смотреть в каталог</a>
+										
 									</div>
+										<a class="btn" href="#">Смотреть в каталог</a>
 								</li>
 								<li class="wr-b">
 									<img src="assets/img/sld.jpg">
 									<div class="wr-tt">
 										<div class="txt">Спинеры <span>От 99 <i>руб.</i></span></div>
-										<a class="btn" href="#">Смотреть в каталог</a>
 									</div>
+										<a class="btn" href="#">Смотреть в каталог</a>
+
 								</li>
 								<li class="wr-b">
 									<img src="assets/img/sld.jpg">
 									<div class="wr-tt">
 										<div class="txt">Спинеры <span>От 99 <i>руб.</i></span></div>
-										<a class="btn" href="#">Смотреть в каталог</a>
 									</div>
+									<a class="btn" href="#">Смотреть в каталог</a>
+
 								</li>
 								<li class="wr-b">
 									<img src="assets/img/sld.jpg">
 									<div class="wr-tt">
 										<div>Спинеры От 99 <i>руб.</i></div>
-										<a class="btn" href="#">Смотреть в каталог</a>
 									</div>
+										<a class="btn" href="#">Смотреть в каталог</a>
+									
 								</li>
 							</ul>
-							<div class="pogin">
-								<div class="prev str">
+							
+								<div class="prev str pst1">
 									<span></span>
 								</div>
-								<div class="next str">
+								<div class="next str pst2">
 									<span></span>
 								</div>
-							</div>
+							
 							<script>
 								$(document).ready(function(){
 									$('.bxslider').bxSlider({
@@ -209,12 +220,8 @@ w
 						</div>
 					</div>
 					<div class="row mains">
-						<div class="bng col-xl-3 col-lg-3">
-							<a href="#" class="ban"><img src="assets/img/banner-l1.jpg" alt=""></a>
-							<a href="#" class="ban"><img src="assets/img/banner-l2.jpg" alt=""></a>
-							<a href="#" class="ban"><img src="assets/img/banner-l3.jpg" alt=""></a>
-						</div>
-						<div style="padding-right: 64px;"  class="pr col-xl-9 col-lg-12">
+
+						<div class="col-lg-12">
 						<div class="slider-container">
 							<div class="swiper-container slider-main-1">
 								<div class="swiper-wrapper">
@@ -247,7 +254,7 @@ w
 										<div class="sld-tw">спиннеры</div>
 									</a>
 								</div>
-	    						<div class="swiper-scrollbar"></div>
+	    						<!--<div class="swiper-scrollbar"></div>-->
 							</div>
 							<div class="swiper button-prev"></div>
 	    					<div class="swiper button-next"></div>
@@ -282,11 +289,13 @@ w
 								// });
 								var mySwiper = new Swiper('.swiper-container', {
 								    spaceBetween: 25,
-								    slidesPerView: 4,
+								    slidesPerView: 6,
+									/*
 								    scrollbar: {
 										el: '.swiper-scrollbar',
 										draggable: true,
 									},
+									*/
 									navigation: {
 										nextEl: '.button-next',
 										prevEl: '.button-prev',
@@ -304,756 +313,1012 @@ w
 						</script>
 						<!-- </div> -->
 						<div class="main-sd">
-							<div class="tit-h clearfix">
-								<div class="h3">Электроника</div>
-								<a class="in-btn" href="#">Вся электроника</a>
+							<div class="tith3 clearfix">
+								<div class="dflx"><img src="assets/img/h3-1.png" alt=""><div class="h3">Новогоднее оформление</div></div>
+								<a class="in-btn" href="#">Все товары</a>
 							</div>
-							<div class="owl-carousel owl-theme sld-def">
-								<div class="slds">
-									<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m1.jpg);">
+							<div class="owl-carousel owl-theme">
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m1.jpg);">
 										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
 									</div></a>
 									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-									<div class="txt-slk">
-										Батарейки C Kodak R14 (2 шт.)
-									</div>
 									<div class="bott clearfix">
-										<div class="left-bb">
-											<div class="orig">1999 руб.</div>
-											<div>
-												<span class="num">299</span><span class="rub">руб.</span>
-											</div>
-										</div>
-										<div class="right-bb">
-											<a class="ear" href="#"></a>
-											<a class="cc" href="#"></a>
-										</div>
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-								<div class="slds">
-									<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m2.jpg);"><div class="shr new"></div></div></a>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m2.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
 									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
 									<div class="txt-slk">
 										Батарейки C Kodak R14 (2 шт.)
 									</div>
+									<a href="" class="inkart">В корзину</a>
+								</div>		
+							<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m3.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
 									<div class="bott clearfix">
-										<div class="left-bb">
-											<div class="orig" class="orig">1999 руб.</div>
-											<div>
-												<span class="num">299</span><span class="rub">руб.</span>
-											</div>
-										</div>
-										<div class="right-bb">
-											<a class="ear" href="#"></a>
-											<a class="cc" href="#"></a>
-										</div>
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-								<div class="slds">
-									<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m3.jpg);"><div class="shr hit"></div></div></a>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m7.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
 									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
 									<div class="txt-slk">
 										Батарейки C Kodak R14 (2 шт.)
 									</div>
+									<a href="" class="inkart">В корзину</a>
+								</div>														
+							<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m5.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
 									<div class="bott clearfix">
-										<div class="left-bb">
-											<div class="orig">1999 руб.</div>
-											<div>
-												<span class="num">299</span><span class="rub">руб.</span>
-											</div>
-										</div>
-										<div class="right-bb">
-											<a class="ear" href="#"></a>
-											<a class="cc" href="#"></a>
-										</div>
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-								<div class="slds">
-									<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m5.jpg);"></div></a>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m6.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
 									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
 									<div class="txt-slk">
 										Батарейки C Kodak R14 (2 шт.)
 									</div>
-									<div class="bott clearfix">
-										<div class="left-bb">
-											<div class="orig">1999 руб.</div>
-											<div>
-												<span class="num">299</span><span class="rub">руб.</span>
-											</div>
-										</div>
-										<div class="right-bb">
-											<a class="ear" href="#"></a>
-											<a class="cc" href="#"></a>
-										</div>
-									</div>
-								</div>
-								<div class="slds">
-									<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m1.jpg);"></div></a>
-									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-									<div class="txt-slk">
-										Батарейки C Kodak R14 (2 шт.)
-									</div>
-									<div class="bott clearfix">
-										<div class="left-bb">
-											<div class="orig">1999 руб.</div>
-											<div>
-												<span class="num">299</span><span class="rub">руб.</span>
-											</div>
-										</div>
-										<div class="right-bb">
-											<a class="ear" href="#"></a>
-											<a class="cc" href="#"></a>
-										</div>
-									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
 							</div>
 						</div>
 						<div class="main-sd">
-							<div class="tit-h clearfix">
-								<div class="h3">Игрушки</div>
-								<a class="in-btn" href="#">Все игрушки</a>
+							<div class="tith3 clearfix">
+								<div class="dflx"><img src="assets/img/h3-2.png" alt=""><div class="h3">Новинки игр и товаров для детей</div></div>
+								<a class="in-btn" href="#">Все товары</a>
 							</div>
-							<div class="owl-carousel owl-theme sld-def">
-								<div class="slds">
-									<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m6.jpg);">
+							<div class="owl-carousel owl-theme">
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m1.jpg);">
 										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
 									</div></a>
 									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-									<div class="txt-slk">
-										Батарейки C Kodak R14 (2 шт.)
-									</div>
 									<div class="bott clearfix">
-										<div class="left-bb">
-											<div class="orig">1999 руб.</div>
-											<div>
-												<span class="num">299</span><span class="rub">руб.</span>
-											</div>
-										</div>
-										<div class="right-bb">
-											<a class="ear" href="#"></a>
-											<a class="cc" href="#"></a>
-										</div>
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-								<div class="slds">
-									<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m7.jpg);"><div class="shr new"></div></div></a>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m2.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
 									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
 									<div class="txt-slk">
 										Батарейки C Kodak R14 (2 шт.)
 									</div>
+									<a href="" class="inkart">В корзину</a>
+								</div>		
+							<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m3.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
 									<div class="bott clearfix">
-										<div class="left-bb">
-											<div class="orig" class="orig">1999 руб.</div>
-											<div>
-												<span class="num">299</span><span class="rub">руб.</span>
-											</div>
-										</div>
-										<div class="right-bb">
-											<a class="ear" href="#"></a>
-											<a class="cc" href="#"></a>
-										</div>
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-								<div class="slds">
-									<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m8.jpg);"><div class="shr hit"></div></div></a>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m7.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
 									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
 									<div class="txt-slk">
 										Батарейки C Kodak R14 (2 шт.)
 									</div>
+									<a href="" class="inkart">В корзину</a>
+								</div>														
+							<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m5.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
 									<div class="bott clearfix">
-										<div class="left-bb">
-											<div class="orig">1999 руб.</div>
-											<div>
-												<span class="num">299</span><span class="rub">руб.</span>
-											</div>
-										</div>
-										<div class="right-bb">
-											<a class="ear" href="#"></a>
-											<a class="cc" href="#"></a>
-										</div>
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-								<div class="slds">
-									<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m9.jpg);"></div></a>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m6.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
 									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
 									<div class="txt-slk">
 										Батарейки C Kodak R14 (2 шт.)
 									</div>
-									<div class="bott clearfix">
-										<div class="left-bb">
-											<div class="orig">1999 руб.</div>
-											<div>
-												<span class="num">299</span><span class="rub">руб.</span>
-											</div>
-										</div>
-										<div class="right-bb">
-											<a class="ear" href="#"></a>
-											<a class="cc" href="#"></a>
-										</div>
-									</div>
-								</div>
-								<div class="slds">
-									<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m6.jpg);"></div></a>
-									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-									<div class="txt-slk">
-										Батарейки C Kodak R14 (2 шт.)
-									</div>
-									<div class="bott clearfix">
-										<div class="left-bb">
-											<div class="orig">1999 руб.</div>
-											<div>
-												<span class="num">299</span><span class="rub">руб.</span>
-											</div>
-										</div>
-										<div class="right-bb">
-											<a class="ear" href="#"></a>
-											<a class="cc" href="#"></a>
-										</div>
-									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
 							</div>
 						</div>
 						<div class="main-sd">
-							<div class="tit-h clearfix">
-								<div class="h3">Строительство и ремонт</div>
-								<a class="in-btn" href="#">Все строительство и ремонт</a>
+							<div class="tith3 clearfix">
+								<div class="dflx"><img src="assets/img/h3-4.png" alt=""><div class="h3">Подарки для женщин</div></div>
+								<a class="in-btn" href="#">Все товары</a>
 							</div>
-							<div class="owl-carousel owl-theme sld-def">
-								<div class="slds">
-									<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m10.jpg);">
+							<div class="owl-carousel owl-theme">
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m1.jpg);">
 										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
 									</div></a>
 									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-									<div class="txt-slk">
-										Батарейки C Kodak R14 (2 шт.)
-									</div>
 									<div class="bott clearfix">
-										<div class="left-bb">
-											<div class="orig">1999 руб.</div>
-											<div>
-												<span class="num">299</span><span class="rub">руб.</span>
-											</div>
-										</div>
-										<div class="right-bb">
-											<a class="ear" href="#"></a>
-											<a class="cc" href="#"></a>
-										</div>
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-								<div class="slds">
-									<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m11.jpg);"><div class="shr new"></div></div></a>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m2.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
 									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
 									<div class="txt-slk">
 										Батарейки C Kodak R14 (2 шт.)
 									</div>
+									<a href="" class="inkart">В корзину</a>
+								</div>		
+							<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m3.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
 									<div class="bott clearfix">
-										<div class="left-bb">
-											<div class="orig" class="orig">1999 руб.</div>
-											<div>
-												<span class="num">299</span><span class="rub">руб.</span>
-											</div>
-										</div>
-										<div class="right-bb">
-											<a class="ear" href="#"></a>
-											<a class="cc" href="#"></a>
-										</div>
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-								<div class="slds">
-									<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m12.jpg);"><div class="shr hit"></div></div></a>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m7.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
 									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
 									<div class="txt-slk">
 										Батарейки C Kodak R14 (2 шт.)
 									</div>
+									<a href="" class="inkart">В корзину</a>
+								</div>														
+							<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m5.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
 									<div class="bott clearfix">
-										<div class="left-bb">
-											<div class="orig">1999 руб.</div>
-											<div>
-												<span class="num">299</span><span class="rub">руб.</span>
-											</div>
-										</div>
-										<div class="right-bb">
-											<a class="ear" href="#"></a>
-											<a class="cc" href="#"></a>
-										</div>
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-								<div class="slds">
-									<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m13.jpg);"></div></a>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m6.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
 									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
 									<div class="txt-slk">
 										Батарейки C Kodak R14 (2 шт.)
 									</div>
-									<div class="bott clearfix">
-										<div class="left-bb">
-											<div class="orig">1999 руб.</div>
-											<div>
-												<span class="num">299</span><span class="rub">руб.</span>
-											</div>
-										</div>
-										<div class="right-bb">
-											<a class="ear" href="#"></a>
-											<a class="cc" href="#"></a>
-										</div>
-									</div>
-								</div>
-								<div class="slds">
-									<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m10.jpg);"></div></a>
-									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-									<div class="txt-slk">
-										Батарейки C Kodak R14 (2 шт.)
-									</div>
-									<div class="bott clearfix">
-										<div class="left-bb">
-											<div class="orig">1999 руб.</div>
-											<div>
-												<span class="num">299</span><span class="rub">руб.</span>
-											</div>
-										</div>
-										<div class="right-bb">
-											<a class="ear" href="#"></a>
-											<a class="cc" href="#"></a>
-										</div>
-									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
 							</div>
 						</div>
 						<div class="main-sd">
-							<div class="tit-h clearfix">
-								<div class="h3">Автотовары</div>
-								<a class="in-btn" href="#">Все автотовары</a>
+							<div class="tith3 clearfix">
+								<div class="dflx"><img src="assets/img/h3-3.png" alt=""><div class="h3">Подарки для мужчин</div></div>
+								<a class="in-btn" href="#">Все товары</a>
 							</div>
-							<div class="owl-carousel owl-theme sld-def">
-								<div class="slds">
-									<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m14.jpg);">
+							<div class="owl-carousel owl-theme">
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m1.jpg);">
 										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
 									</div></a>
 									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-									<div class="txt-slk">
-										Батарейки C Kodak R14 (2 шт.)
-									</div>
 									<div class="bott clearfix">
-										<div class="left-bb">
-											<div class="orig">1999 руб.</div>
-											<div>
-												<span class="num">299</span><span class="rub">руб.</span>
-											</div>
-										</div>
-										<div class="right-bb">
-											<a class="ear" href="#"></a>
-											<a class="cc" href="#"></a>
-										</div>
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-								<div class="slds">
-									<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m15.jpg);"><div class="shr new"></div></div></a>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m2.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
 									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
 									<div class="txt-slk">
 										Батарейки C Kodak R14 (2 шт.)
 									</div>
+									<a href="" class="inkart">В корзину</a>
+								</div>		
+							<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m3.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
 									<div class="bott clearfix">
-										<div class="left-bb">
-											<div class="orig" class="orig">1999 руб.</div>
-											<div>
-												<span class="num">299</span><span class="rub">руб.</span>
-											</div>
-										</div>
-										<div class="right-bb">
-											<a class="ear" href="#"></a>
-											<a class="cc" href="#"></a>
-										</div>
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-								<div class="slds">
-									<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m16.jpg);"><div class="shr hit"></div></div></a>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m7.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
 									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
 									<div class="txt-slk">
 										Батарейки C Kodak R14 (2 шт.)
 									</div>
+									<a href="" class="inkart">В корзину</a>
+								</div>														
+							<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m5.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
 									<div class="bott clearfix">
-										<div class="left-bb">
-											<div class="orig">1999 руб.</div>
-											<div>
-												<span class="num">299</span><span class="rub">руб.</span>
-											</div>
-										</div>
-										<div class="right-bb">
-											<a class="ear" href="#"></a>
-											<a class="cc" href="#"></a>
-										</div>
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-								<div class="slds">
-									<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m17.jpg);"></div></a>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m6.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
 									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
 									<div class="txt-slk">
 										Батарейки C Kodak R14 (2 шт.)
 									</div>
-									<div class="bott clearfix">
-										<div class="left-bb">
-											<div class="orig">1999 руб.</div>
-											<div>
-												<span class="num">299</span><span class="rub">руб.</span>
-											</div>
-										</div>
-										<div class="right-bb">
-											<a class="ear" href="#"></a>
-											<a class="cc" href="#"></a>
-										</div>
-									</div>
-								</div>
-								<div class="slds">
-									<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m14.jpg);"></div></a>
-									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-									<div class="txt-slk">
-										Батарейки C Kodak R14 (2 шт.)
-									</div>
-									<div class="bott clearfix">
-										<div class="left-bb">
-											<div class="orig">1999 руб.</div>
-											<div>
-												<span class="num">299</span><span class="rub">руб.</span>
-											</div>
-										</div>
-										<div class="right-bb">
-											<a class="ear" href="#"></a>
-											<a class="cc" href="#"></a>
-										</div>
-									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
 							</div>
 						</div>
 						<div class="main-sd">
-							<div class="tit-h clearfix">
-								<div class="h3">Красота и здоровье</div>
-								<a class="in-btn" href="#">Все красота и здоровье</a>
+							<div class="tith3 clearfix">
+								<div class="dflx"><img src="assets/img/h3-5.png" alt=""><div class="h3">Популярные смартфоны и аксессуары</div></div>
+								<a class="in-btn" href="#">Все товары</a>
 							</div>
-							<div class="owl-carousel sld-def">
-								<div class="slds">
-									<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m18.jpg);">
+							<div class="owl-carousel owl-theme">
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m1.jpg);">
 										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
 									</div></a>
 									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-									<div class="txt-slk">
-										Батарейки C Kodak R14 (2 шт.)
-									</div>
 									<div class="bott clearfix">
-										<div class="left-bb">
-											<div class="orig">1999 руб.</div>
-											<div>
-												<span class="num">299</span><span class="rub">руб.</span>
-											</div>
-										</div>
-										<div class="right-bb">
-											<a class="ear" href="#"></a>
-											<a class="cc" href="#"></a>
-										</div>
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-								<div class="slds">
-									<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m19.jpg);"><div class="shr new"></div></div></a>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m2.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
 									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
 									<div class="txt-slk">
 										Батарейки C Kodak R14 (2 шт.)
 									</div>
+									<a href="" class="inkart">В корзину</a>
+								</div>		
+							<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m3.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
 									<div class="bott clearfix">
-										<div class="left-bb">
-											<div class="orig" class="orig">1999 руб.</div>
-											<div>
-												<span class="num">299</span><span class="rub">руб.</span>
-											</div>
-										</div>
-										<div class="right-bb">
-											<a class="ear" href="#"></a>
-											<a class="cc" href="#"></a>
-										</div>
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-								<div class="slds">
-									<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m20.jpg);"><div class="shr hit"></div></div></a>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m7.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
 									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
 									<div class="txt-slk">
 										Батарейки C Kodak R14 (2 шт.)
 									</div>
+									<a href="" class="inkart">В корзину</a>
+								</div>														
+							<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m5.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
 									<div class="bott clearfix">
-										<div class="left-bb">
-											<div class="orig">1999 руб.</div>
-											<div>
-												<span class="num">299</span><span class="rub">руб.</span>
-											</div>
-										</div>
-										<div class="right-bb">
-											<a class="ear" href="#"></a>
-											<a class="cc" href="#"></a>
-										</div>
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-								<div class="slds">
-									<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m21.jpg);"></div></a>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m6.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
 									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
 									<div class="txt-slk">
 										Батарейки C Kodak R14 (2 шт.)
 									</div>
-									<div class="bott clearfix">
-										<div class="left-bb">
-											<div class="orig">1999 руб.</div>
-											<div>
-												<span class="num">299</span><span class="rub">руб.</span>
-											</div>
-										</div>
-										<div class="right-bb">
-											<a class="ear" href="#"></a>
-											<a class="cc" href="#"></a>
-										</div>
-									</div>
-								</div>
-								<div class="slds">
-									<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m18.jpg);"></div></a>
-									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-									<div class="txt-slk">
-										Батарейки C Kodak R14 (2 шт.)
-									</div>
-									<div class="bott clearfix">
-										<div class="left-bb">
-											<div class="orig">1999 руб.</div>
-											<div>
-												<span class="num">299</span><span class="rub">руб.</span>
-											</div>
-										</div>
-										<div class="right-bb">
-											<a class="ear" href="#"></a>
-											<a class="cc" href="#"></a>
-										</div>
-									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
 							</div>
 						</div>
 						<div class="main-sd">
-							<div class="tit-h clearfix">
-								<div class="h3">Для курящих</div>
-								<a class="in-btn" href="#">Все для курящих</a>
+							<div class="tith3 clearfix">
+								<div class="dflx"><img src="assets/img/h3-6.png" alt=""><div class="h3">Повседневные товары для женщин</div></div>
+								<a class="in-btn" href="#">Все товары</a>
 							</div>
-							<div class="owl-carousel sld-def">
-								<div class="slds">
-									<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m22.jpg);">
+							<div class="owl-carousel owl-theme">
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m1.jpg);">
 										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
 									</div></a>
 									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-									<div class="txt-slk">
-										Батарейки C Kodak R14 (2 шт.)
-									</div>
 									<div class="bott clearfix">
-										<div class="left-bb">
-											<div class="orig">1999 руб.</div>
-											<div>
-												<span class="num">299</span><span class="rub">руб.</span>
-											</div>
-										</div>
-										<div class="right-bb">
-											<a class="ear" href="#"></a>
-											<a class="cc" href="#"></a>
-										</div>
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-								<div class="slds">
-									<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m23.jpg);"><div class="shr new"></div></div></a>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m2.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
 									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
 									<div class="txt-slk">
 										Батарейки C Kodak R14 (2 шт.)
 									</div>
+									<a href="" class="inkart">В корзину</a>
+								</div>		
+							<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m3.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
 									<div class="bott clearfix">
-										<div class="left-bb">
-											<div class="orig" class="orig">1999 руб.</div>
-											<div>
-												<span class="num">299</span><span class="rub">руб.</span>
-											</div>
-										</div>
-										<div class="right-bb">
-											<a class="ear" href="#"></a>
-											<a class="cc" href="#"></a>
-										</div>
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-								<div class="slds">
-									<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m24.jpg);"><div class="shr hit"></div></div></a>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m7.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
 									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
 									<div class="txt-slk">
 										Батарейки C Kodak R14 (2 шт.)
 									</div>
+									<a href="" class="inkart">В корзину</a>
+								</div>														
+							<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m5.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
 									<div class="bott clearfix">
-										<div class="left-bb">
-											<div class="orig">1999 руб.</div>
-											<div>
-												<span class="num">299</span><span class="rub">руб.</span>
-											</div>
-										</div>
-										<div class="right-bb">
-											<a class="ear" href="#"></a>
-											<a class="cc" href="#"></a>
-										</div>
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-								<div class="slds">
-									<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m25.jpg);"></div></a>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m6.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
 									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
 									<div class="txt-slk">
 										Батарейки C Kodak R14 (2 шт.)
 									</div>
-									<div class="bott clearfix">
-										<div class="left-bb">
-											<div class="orig">1999 руб.</div>
-											<div>
-												<span class="num">299</span><span class="rub">руб.</span>
-											</div>
-										</div>
-										<div class="right-bb">
-											<a class="ear" href="#"></a>
-											<a class="cc" href="#"></a>
-										</div>
-									</div>
-								</div>
-								<div class="slds">
-									<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m22.jpg);"></div></a>
-									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-									<div class="txt-slk">
-										Батарейки C Kodak R14 (2 шт.)
-									</div>
-									<div class="bott clearfix">
-										<div class="left-bb">
-											<div class="orig">1999 руб.</div>
-											<div>
-												<span class="num">299</span><span class="rub">руб.</span>
-											</div>
-										</div>
-										<div class="right-bb">
-											<a class="ear" href="#"></a>
-											<a class="cc" href="#"></a>
-										</div>
-									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
 							</div>
 						</div>
 						<div class="main-sd">
-							<div class="tit-h clearfix">
-								<div class="h3">Для дома и дачи</div>
-								<a class="in-btn" href="#">Все для дома и дачи</a>
+							<div class="tith3 clearfix">
+								<div class="dflx"><img src="assets/img/h3-10.png" alt=""><div class="h3">Повседневные товары для мужчин</div></div>
+								<a class="in-btn" href="#">Все товары</a>
 							</div>
-							<div class="owl-carousel sld-def">
-								<div class="slds">
-									<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m26.jpg);">
+							<div class="owl-carousel owl-theme">
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m1.jpg);">
 										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
 									</div></a>
 									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-									<div class="txt-slk">
-										Батарейки C Kodak R14 (2 шт.)
-									</div>
 									<div class="bott clearfix">
-										<div class="left-bb">
-											<div class="orig">1999 руб.</div>
-											<div>
-												<span class="num">299</span><span class="rub">руб.</span>
-											</div>
-										</div>
-										<div class="right-bb">
-											<a class="ear" href="#"></a>
-											<a class="cc" href="#"></a>
-										</div>
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-								<div class="slds">
-									<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m27.jpg);"><div class="shr new"></div></div></a>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m2.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
 									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
 									<div class="txt-slk">
 										Батарейки C Kodak R14 (2 шт.)
 									</div>
+									<a href="" class="inkart">В корзину</a>
+								</div>		
+							<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m3.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
 									<div class="bott clearfix">
-										<div class="left-bb">
-											<div class="orig" class="orig">1999 руб.</div>
-											<div>
-												<span class="num">299</span><span class="rub">руб.</span>
-											</div>
-										</div>
-										<div class="right-bb">
-											<a class="ear" href="#"></a>
-											<a class="cc" href="#"></a>
-										</div>
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-								<div class="slds">
-									<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m28.jpg);"><div class="shr hit"></div></div></a>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m7.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
 									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
 									<div class="txt-slk">
 										Батарейки C Kodak R14 (2 шт.)
 									</div>
+									<a href="" class="inkart">В корзину</a>
+								</div>														
+							<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m5.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
 									<div class="bott clearfix">
-										<div class="left-bb">
-											<div class="orig">1999 руб.</div>
-											<div>
-												<span class="num">299</span><span class="rub">руб.</span>
-											</div>
-										</div>
-										<div class="right-bb">
-											<a class="ear" href="#"></a>
-											<a class="cc" href="#"></a>
-										</div>
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-								<div class="slds">
-									<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m29.jpg);"></div></a>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m6.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
 									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
 									<div class="txt-slk">
 										Батарейки C Kodak R14 (2 шт.)
 									</div>
-									<div class="bott clearfix">
-										<div class="left-bb">
-											<div class="orig">1999 руб.</div>
-											<div>
-												<span class="num">299</span><span class="rub">руб.</span>
-											</div>
-										</div>
-										<div class="right-bb">
-											<a class="ear" href="#"></a>
-											<a class="cc" href="#"></a>
-										</div>
-									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-								<div class="slds">
-									<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m26.jpg);"></div></a>
+							</div>
+						</div>
+						<div class="main-sd">
+							<div class="tith3 clearfix">
+								<div class="dflx"><img src="assets/img/h3-7.png" alt=""><div class="h3">Новинки видео игр</div></div>
+								<a class="in-btn" href="#">Все товары</a>
+							</div>
+							<div class="owl-carousel owl-theme">
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m1.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
 									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-									<div class="txt-slk">
-										Батарейки C Kodak R14 (2 шт.)
-									</div>
 									<div class="bott clearfix">
-										<div class="left-bb">
-											<div class="orig">1999 руб.</div>
-											<div>
-												<span class="num">299</span><span class="rub">руб.</span>
-											</div>
-										</div>
-										<div class="right-bb">
-											<a class="ear" href="#"></a>
-											<a class="cc" href="#"></a>
-										</div>
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-								<div class="slds">
-									<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m26.jpg);"></div></a>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m2.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
 									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
 									<div class="txt-slk">
 										Батарейки C Kodak R14 (2 шт.)
 									</div>
+									<a href="" class="inkart">В корзину</a>
+								</div>		
+							<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m3.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
 									<div class="bott clearfix">
-										<div class="left-bb">
-											<div class="orig">1999 руб.</div>
-											<div>
-												<span class="num">299</span><span class="rub">руб.</span>
-											</div>
-										</div>
-										<div class="right-bb">
-											<a class="ear" href="#"></a>
-											<a class="cc" href="#"></a>
-										</div>
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
+									<a href="" class="inkart">В корзину</a>
+								</div>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m7.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)
+									</div>
+									<a href="" class="inkart">В корзину</a>
+								</div>														
+							<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m5.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
+									</div>
+									<a href="" class="inkart">В корзину</a>
+								</div>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m6.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)
+									</div>
+									<a href="" class="inkart">В корзину</a>
+								</div>
+							</div>
+						</div>
+						<div class="main-sd">
+							<div class="tith3 clearfix">
+								<div class="dflx"><img src="assets/img/h3-8.png" alt=""><div class="h3">Новинки кино</div></div>
+								<a class="in-btn" href="#">Все товары</a>
+							</div>
+							<div class="owl-carousel owl-theme">
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m1.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
+									</div>
+									<a href="" class="inkart">В корзину</a>
+								</div>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m2.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)
+									</div>
+									<a href="" class="inkart">В корзину</a>
+								</div>		
+							<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m3.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
+									</div>
+									<a href="" class="inkart">В корзину</a>
+								</div>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m7.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)
+									</div>
+									<a href="" class="inkart">В корзину</a>
+								</div>														
+							<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m5.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
+									</div>
+									<a href="" class="inkart">В корзину</a>
+								</div>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m6.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)
+									</div>
+									<a href="" class="inkart">В корзину</a>
+								</div>
+							</div>
+						</div>
+						<div class="main-sd">
+							<div class="tith3 clearfix">
+								<div class="dflx"><img src="assets/img/h3-9.png" alt=""><div class="h3">Распродажи</div></div>
+								<a class="in-btn" href="#">Все товары</a>
+							</div>
+							<div class="owl-carousel owl-theme">
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m1.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
+									</div>
+									<a href="" class="inkart">В корзину</a>
+								</div>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m2.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)
+									</div>
+									<a href="" class="inkart">В корзину</a>
+								</div>		
+							<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m3.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
+									</div>
+									<a href="" class="inkart">В корзину</a>
+								</div>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m7.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)
+									</div>
+									<a href="" class="inkart">В корзину</a>
+								</div>														
+							<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m5.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
+									</div>
+									<a href="" class="inkart">В корзину</a>
+								</div>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m6.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)
+									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
 							</div>
 						</div>
@@ -1084,879 +1349,862 @@ w
 						<a href="s9" class="cat-b">Разное</a>
 					</div>
 					<div class="sld-def new-c row">
-						<div class="owl-carousel ss1">
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m1.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
+						<div class="owl-carousel  owl-theme ss1">
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m1.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
-									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-							</div>
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m6.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m2.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)
 									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
+									<a href="" class="inkart">В корзину</a>
+								</div>		
+							<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m3.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-							</div>
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m7.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m7.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)
 									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
+									<a href="" class="inkart">В корзину</a>
+								</div>														
+							<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m5.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-							</div>
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m8.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m6.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)
 									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
-									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-							</div>
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m9.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
-									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
-									</div>
-								</div>
-							</div>
 						</div>
-						<div class="owl-carousel ss2">
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m9.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
+						<div class="owl-carousel  owl-theme ss2">
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m1.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
-									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-							</div>
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m6.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m2.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)
 									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
+									<a href="" class="inkart">В корзину</a>
+								</div>		
+							<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m3.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-							</div>
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m8.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m7.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)
 									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
+									<a href="" class="inkart">В корзину</a>
+								</div>														
+							<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m5.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-							</div>
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m7.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m6.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)
 									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
-									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-							</div>
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m1.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
-									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
-									</div>
-								</div>
-							</div>
 						</div>
-						<div class="owl-carousel ss3">
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m8.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
+						<div class="owl-carousel  owl-theme ss3">
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m1.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
-									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-							</div>
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m6.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m2.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)
 									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
+									<a href="" class="inkart">В корзину</a>
+								</div>		
+							<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m3.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-							</div>
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m7.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m7.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)
 									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
+									<a href="" class="inkart">В корзину</a>
+								</div>														
+							<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m5.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-							</div>
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m1.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m6.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)
 									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
-									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-							</div>
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m9.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
+						</div>						
+						<div class="owl-carousel  owl-theme ss4">
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m1.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
-									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-							</div>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m2.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)
+									</div>
+									<a href="" class="inkart">В корзину</a>
+								</div>		
+							<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m3.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
+									</div>
+									<a href="" class="inkart">В корзину</a>
+								</div>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m7.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)
+									</div>
+									<a href="" class="inkart">В корзину</a>
+								</div>														
+							<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m5.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
+									</div>
+									<a href="" class="inkart">В корзину</a>
+								</div>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m6.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)
+									</div>
+									<a href="" class="inkart">В корзину</a>
+								</div>
 						</div>
-						<div class="owl-carousel ss4">
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m7.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
+						<div class="owl-carousel  owl-theme ss5">
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m1.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
-									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-							</div>
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m6.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m2.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)
 									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
+									<a href="" class="inkart">В корзину</a>
+								</div>		
+							<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m3.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-							</div>
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m1.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m7.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)
 									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
+									<a href="" class="inkart">В корзину</a>
+								</div>														
+							<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m5.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-							</div>
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m8.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m6.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)
 									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
-									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-							</div>
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m9.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
-									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
-									</div>
-								</div>
-							</div>
 						</div>
-						<div class="owl-carousel ss5">
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m6.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
+						<div class="owl-carousel  owl-theme ss6">
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m1.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
-									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-							</div>
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m1.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m2.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)
 									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
+									<a href="" class="inkart">В корзину</a>
+								</div>		
+							<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m3.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-							</div>
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m7.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m7.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)
 									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
+									<a href="" class="inkart">В корзину</a>
+								</div>														
+							<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m5.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-							</div>
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m8.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m6.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)
 									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
-									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-							</div>
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m9.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
-									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
-									</div>
-								</div>
-							</div>
 						</div>
-						<div class="owl-carousel ss6">
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m6.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
+						<div class="owl-carousel  owl-theme ss7">
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m1.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
-									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-							</div>
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m7.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m2.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)
 									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
+									<a href="" class="inkart">В корзину</a>
+								</div>		
+							<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m3.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-							</div>
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m1.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m7.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)
 									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
+									<a href="" class="inkart">В корзину</a>
+								</div>														
+							<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m5.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-							</div>
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m8.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m6.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)
 									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
-									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-							</div>
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m9.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
-									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
-									</div>
-								</div>
-							</div>
 						</div>
-						<div class="owl-carousel ss7">
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m8.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
+						<div class="owl-carousel  owl-theme ss8">
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m1.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
-									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-							</div>
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m6.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m2.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)
 									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
+									<a href="" class="inkart">В корзину</a>
+								</div>		
+							<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m3.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-							</div>
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m1.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m7.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)
 									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
+									<a href="" class="inkart">В корзину</a>
+								</div>														
+							<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m5.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-							</div>
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m7.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m6.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)
 									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
-									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-							</div>
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m9.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
-									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
-									</div>
-								</div>
-							</div>
 						</div>
-						<div class="owl-carousel ss8">
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m1.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
+						<div class="owl-carousel  owl-theme ss9">
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m1.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
-									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-							</div>
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m7.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m2.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)
 									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
+									<a href="" class="inkart">В корзину</a>
+								</div>		
+							<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m3.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-							</div>
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m6.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m7.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)
 									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
+									<a href="" class="inkart">В корзину</a>
+								</div>														
+							<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m5.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299<span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)<br>
+										Батарейки C Kodak R14 (2 шт.)<br>
 									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-							</div>
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m8.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
+								<div class="slds mh">
+									<a class="sldsa" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m6.jpg);">
+										<div class="shr sale"></div>
+										<div class="button">Беглый взгляд</div>
+									</div></a>
+									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
+									<div class="bott clearfix">
+											<div class="priceorig">1999<span>&#8381;</span></div>
+											<div class="pricedisc">299 <span>&#8381;</span></div>
+									</div>									
+									<div class="txt-slk">
+										Батарейки C Kodak R14 (2 шт.)
 									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
-									</div>
+									<a href="" class="inkart">В корзину</a>
 								</div>
-							</div>
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m9.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
-									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
-									</div>
-								</div>
-							</div>
 						</div>
-						<div class="owl-carousel ss9">
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m6.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
-									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
-									</div>
-								</div>
-							</div>
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m9.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
-									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
-									</div>
-								</div>
-							</div>
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m7.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
-									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
-									</div>
-								</div>
-							</div>
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m8.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
-									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
-									</div>
-								</div>
-							</div>
-							<div class="slds col">
-								<a style="display: block;" href="#"><div class="s-i" style="background-image: url(assets/img/sld-m1.jpg);"></div></a>
-								<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-								<div class="txt-slk">
-									Батарейки C Kodak R14 (2 шт.)
-								</div>
-								<div class="bott clearfix">
-									<div class="left-bb">
-										<div class="orig">1999 руб.</div>
-										<div>
-											<span class="num">299</span><span class="rub">руб.</span>
-										</div>
-									</div>
-									<div class="right-bb">
-										<a class="ear" href="#"></a>
-										<a class="cc" href="#"></a>
-									</div>
-								</div>
-							</div>
-						</div>
+
 					</div>
 				</div>
 				<div class="prevv clearfix">
@@ -2017,6 +2265,20 @@ w
 								</form>
 							</div>
 						</div>
+					</div>
+				</div>
+				<div class="sometextblock">
+				<div class="wrapper">
+				<div class="gradtext">
+					<h5>Широкий ассортимент и невысокая цена</h5>
+
+Интернет магазин одежды Ododo.ru – это доступные цены, широкий, регулярно обновляемый ассортимент. В онлайн-каталоге представлено около 7000 ведущих брендов женской, мужской и детской одежды и обуви, электроники, книжной продукции, ювелирных изделий, игрушек и т.д. Для удобства пользования онлайн-каталог поделен на разделы, все товары можно сортировать по ряду критериев: цена, материал изготовления, сезонность, бренд.
+
+<h5>Выгодный шоппинг</h5>
+
+Интернет магазин Ododo.ru регулярно проводит масштабные распродажи, в рамках которых купить одежду и обувь становится еще реальнее. Чтобы быть в курсе предстоящих скидок или появления в ассортименте новых моделей одежды от любимых брендов, достаточно подписаться на email-рассылку магазина. Дополнительные выгодные условия действуют для постоянных покупателей Wildberries – персональная скидка, зависящая от процента выкупа вещей. В Wildberries всегда ответственно подходят к выбору поставщиков, со многими производителями  
+</div>			
+<a href="">Читать далее ></a>					
 					</div>
 				</div>
 			</main>
@@ -2154,12 +2416,12 @@ w
 							nav: true
 						},
 						1200: {
-							items: 4,
+							items: 5,
 							dots: false,
 							nav: true
 						},
 						1440: {
-							items: 4,
+							items: 5,
 							dots: false,
 							nav: true
 						}

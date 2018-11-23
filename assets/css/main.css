@@ -360,7 +360,7 @@ h4 {
 }
 
 .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus, .bx-wrapper .bx-pager.bx-default-pager a:hover {
-	background: #000;
+	background: #fff;
 }
 
 .bx-wrapper .bx-controls-auto .bx-controls-auto-item, .bx-wrapper .bx-pager-item {
@@ -5464,7 +5464,8 @@ table.tgr {
  }
 
  .rig-i {
- 	width: 100%;
+	 margin-left: -50px;;
+ 	width: 570px;
  	position: relative;
  }
  .rig-i input[type=text] {
@@ -5480,15 +5481,16 @@ table.tgr {
  	outline: none;
  }
  .rig-i input[type=submit] {
- 	width: 16px;
- 	height: 16px;
- 	background: url(../img/ser.png) no-repeat center center;
+ 	width: 50px;
+ 	height: 40px;
+ 	background: url(../img/ser.png) no-repeat center center #ffe11e;
  	border: none;
  	position: absolute;
  	top: 50%;
- 	margin-top: -8px;
+ 	margin-top: -20px;
  	right: 0;
- 	margin-right: 21px;
+ 	border-bottom-right-radius: 20px;
+	 border-top-right-radius: 20px;
  	outline: none;
  	cursor: pointer;
  }
@@ -5520,8 +5522,8 @@ table.tgr {
  }
 */
  .wr-t {
- 	padding-top: 25px;
- 	padding-bottom: 24px;
+ 	padding-top: 15px;
+ 	padding-bottom: 10px;
  }
 
  .lef-i {
@@ -5548,11 +5550,12 @@ table.tgr {
  }
 
  .l-i {
- 	float: left;
+ 	float: right;
+	 margin-right: 20px;
  }
  .l-i a {
  	text-decoration: none;
- 	color: #423943;
+ 	color: #fff;
  	font-family: "ProximaNovaRegular";
  	font-size: 14px;
  	margin-right: 10px;
@@ -5565,28 +5568,19 @@ table.tgr {
  	width: 56px;
  	height: 21px;
  	border-radius: 10px;
- 	background-image: -webkit-linear-gradient(left, #312a6c 0%, #852d91 100%), -webkit-linear-gradient(left, #312a6c 0%, #852d91 100%);
- 	background-image: -moz-linear-gradient(left, #312a6c 0%, #852d91 100%), -moz-linear-gradient(left, #312a6c 0%, #852d91 100%);
- 	background-image: -o-linear-gradient(left, #312a6c 0%, #852d91 100%), -o-linear-gradient(left, #312a6c 0%, #852d91 100%);
- 	background-image: linear-gradient(to right, #312a6c 0%, #852d91 100%), linear-gradient(to right, #312a6c 0%, #852d91 100%);
+	 border: 1px solid #fff;
+	  	text-align: center;
  }
- .l-i .bg-a a {
- 	display: block;
- 	width: 54px;
- 	line-height: 19px;
- 	height: 19px;
- 	position: relative;
- 	top: 1px;
- 	text-decoration: none;
- 	left: 1px;
- 	text-align: center;
- 	border-radius: 10px;
- 	background-color: #fff;
- }
+.l-i .bg-a a{ 
+	  	text-align: center;
+	margin: 0;
+}
+
 
  .l-i .bg-a a:hover {
- 	background: #852d91 !important;
+ 	
  	color: #fff !important;
+	 text-decoration: none;
  }
 
  .r-i {
@@ -5624,10 +5618,19 @@ table.tgr {
  }
 
  .cart {
+	 color: #7c2d8d;
  	position: relative;
- 	width: 37px;
- 	height: 36px;
+ 	width: 130px;
+ 	height: 40px;
  	display: inline-block;
+	 background: url(../img/cart2.png) no-repeat 10px center #fff;
+	padding:12px 0 0 40px;
+	 box-sizing: border-box;
+	 border-radius: 25px;
+	 margin-top: -10px;
+	 text-transform: uppercase;
+	 font-family: "ProximaNovaBold";
+	 
  }
  .cart span {
  	width: 19px;
@@ -5641,19 +5644,15 @@ table.tgr {
  	line-height: 19px;
  	display: inline-block;
  	position: absolute;
- 	top: -8px;
- 	right: -8px;
+ 	top: -5px;
+ 	right: -4px;
  }
- .cart div {
- 	background: url(../img/cart.png) no-repeat center center;
- 	background-size: auto;
- 	width: 35px;
- 	height: 29px;
- 	display: block;
- }
+.cart:hover {
+	color: #000;
+}
 
  .wr-m {
- 	background: #fff;
+ 	color: #fff;
  	height: 50px;
  	width: 100%;
  	line-height: 50px;
@@ -5667,10 +5666,12 @@ table.tgr {
  }
 
  .menu {
- 	padding-left: 0;
+ 	padding: 0;
  	height: auto;
- 	float: left;
  }
+.rel{
+	position: relative;
+}
  .menu ul {
  	display: -webkit-flex;
  	display: -moz-flex;
@@ -5686,44 +5687,85 @@ table.tgr {
  	justify-content: space-between;
  }
  .menu ul a {
- 	color: #1f1d1f;
- 	font-family: "ProximaNovaBold";
+ 	color: #fff;
+ 	font-family: "ProximaNovaRegular";
  	font-size: 12px;
- 	text-transform: uppercase;
+ 
  }
  .menu ul a:hover {
- 	color: #852d91;
+ 	color: #000;
  }
  .menu ul .c-h:hover {
  	background-color: #61216a;
  }
- .menu ul li:first-child a {
- 	background-color: #852d91;
+.menu .catbut {
+	float: left;
+	box-sizing: border-box;
+ 	border: 1px solid #fff;
  	display: block;
- 	padding: 0px 55px 0 31px;
- 	color: #fffefe;
+ 	padding: 13px 0px 0 45px;
+ 	color: #fff;
  	position: relative;
+	 height: 40px;
+	 border-radius: 20px;
+	font-family: "ProximaNovaBold";
+	 font-size: 12px;
+	text-transform: uppercase;
+	width: 175px;
  }
- .menu ul li:first-child a span {
- 	display: inline-block;
+.menu .catbut:hover{
+	color: #fff;
+}
+.menu .catbut span{
+	display: inline-block;
  	background: url(../img/menu.png) no-repeat center center;
  	background-size: auto;
  	width: 16px;
  	height: 15px;
  	position: absolute;
  	top: 50%;
- 	right: 19px;
+ 	left: 19px;
  	margin-top: -8px;
- }
- .menu ul li:nth-child(2) {
- 	background: url(../img/car.png) no-repeat center left;
- 	background-size: auto;
- 	padding-left: 40px;
- 	background-position-y: 44%;
- }
-
+	
+}
+.u11 a{
+	padding: 0px 55px 0 31px;
+}
+ 
  .cont div, .cont a {
  	padding: 0;
+ }
+
+ .contacttop {
+	 
+ 	float: right;
+ }
+.citytext a{
+color: #32abff;	
+	font-size: 13px;
+}
+.citytext span{
+	font-size: 13px;
+margin: 0 10px 0 10px;
+}
+.menucol{
+	margin: auto;
+	max-width: 570px;
+}
+ .contacttop div {
+ 	margin-right: 20px;;
+ 	color: #fff;
+ 	font-family: "ProximaNovaRegular";
+ 	font-size: 12px;
+ 	padding-left: 14px;
+	 float: right;
+ }
+ .contacttop a {
+	 float: right;
+ 	
+ 	color: #fff;
+ 	font-family: "ProximaNovaBold";
+ 	font-size: 15px;
  }
 
  .contact {
@@ -5742,7 +5784,6 @@ table.tgr {
  	font-family: "ProximaNovaBold";
  	font-size: 17px;
  }
-
  .str {
  	width: 33px;
  	height: 34px;
@@ -5814,6 +5855,7 @@ table.tgr {
  }
 
  .sld {
+	 position: relative;	
  	padding: 0;
  	width: calc(100% - 405px);
  	float: left;
@@ -5824,10 +5866,10 @@ table.tgr {
  }
  .sld .bx-default-pager {
  	position: absolute;
- 	bottom: 35px;
+ 	bottom: 55px;
  	right: 0;
- 	text-align: right;
- 	padding-right: 70px;
+ 	text-align: center;
+ 	padding-left: 70px;
  }
  .sld .bx-wrapper .bx-pager-item {
  	display: inline-block;
@@ -5849,9 +5891,17 @@ table.tgr {
 
  .pogin {
  	position: absolute;
- 	bottom: 20px;
- 	left: 40px;
  }
+.pst1{
+ 	top: 49%;
+ 	left: 40px;
+position: absolute;	
+}
+.pst2{
+ 	top: 49%;
+ 	right: 40px;
+position: absolute;	
+}
 
  .baners-top {
  	height: 457px;
@@ -6069,8 +6119,8 @@ table.tgr {
  	display: block;
  }
  .owl-carousel .slds{
-	padding-left: 10px;
- 	padding-right: 10px;
+	padding-left: 20px;
+ 	padding-right: 20px;
  }
 
  .mains {
@@ -6232,7 +6282,7 @@ table.tgr {
  }
 
  .main-sd {
- 	margin-top: 53px;
+ 	margin-top: 5px;
  }
 
  .shr {
@@ -6268,7 +6318,7 @@ table.tgr {
  }
 
  .s-i {
- 	border-radius: 50%;
+ 	
  	background-repeat: no-repeat;
  	background-size: cover;
  	background-position: center center;
@@ -6337,10 +6387,10 @@ table.tgr {
  	display: block;
  }
  .new-c .slds:nth-child(1) {
- 	padding-left: 0;
+ 	
  }
  .new-c .slds:last-child {
- 	padding-right: 0;
+ 	
  }
 
  .prevv {
@@ -6428,11 +6478,11 @@ table.tgr {
  	background: url(../img/con1.png) no-repeat top right;
  	background-size: auto;
  	height: 100%;
- 	padding-top: 97px !important;
+ 	padding-top: 50px !important;
  }
 
  .ba {
- 	height: 341px;
+ 	height: 170px;
  	width: 100%;
  	background-color: #fff;
  	background-image: linear-gradient(45deg, #312a6c 0%, #852d91 100%);
@@ -7934,7 +7984,7 @@ table.tgr {
  }
 
  .in-rt {
- 	border-bottom: 1px solid #e4e4e4;
+ 	border-bottom: 1px solid #524683;
  	padding-bottom: 20px;
  	position: relative;
  }
@@ -10449,6 +10499,7 @@ label.lof>.selectbox {
 
     /*main media*/
     @media (max-width: 1440px) {
+		
     	.wrapper {
     		width: 1260px;
     		margin: 0 auto;
@@ -10707,7 +10758,7 @@ label.lof>.selectbox {
 
     	.in-r {
     		margin-top: 7px;
-    		width: 300px;
+    		
     		float: right;
     	}
 
@@ -10764,7 +10815,7 @@ label.lof>.selectbox {
     		width: 768px;
     	}
 
-    	.up1 {
+    	.up1,.catbut {
     		display: none !important;
     	}
 
@@ -11117,7 +11168,7 @@ label.lof>.selectbox {
     	}
 
     	.in-r {
-    		width: 250px;
+    		
     	}
 
     	.sld {
@@ -12658,4 +12709,4 @@ label.check + .check {
 .slider-nav .slick-list{
 	margin: 0 -10px;
 }
-.slider-nav 
+
