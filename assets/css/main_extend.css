@@ -59,6 +59,11 @@ header {
   .sld .active {
     background: #000!important;
   }
+  .tith3 .in-btn {
+    width: auto;
+    position: relative!important;
+    float: none;
+  }
 }
 @media (max-width: 1270px) {
   .rig-i {
@@ -93,21 +98,21 @@ header {
   right: 50px;
   bottom: 40px;
 }
-.sld-def .priceorig {
+.slds .priceorig {
   color: red;
   font-family: "RobotoBold";
   font-size: 30px;
   float: left;
 }
-.sld-def .priceorig span {
+.slds .priceorig span {
   font-size: 22px;
   margin-left: 5px;
 }
-.sld-def .pricedisc span {
+.slds .pricedisc span {
   font-size: 15px;
   margin-left: 5px;
 }
-.sld-def .pricedisc {
+.slds .pricedisc {
   float: left;
   margin-left: 20px;
   margin-top: 5px;
@@ -118,9 +123,30 @@ header {
 }
 .txt-slk {
   margin-top: 10px;
+  font-family: "ProximaNovaRegular";
+  font-size: 13px;
+  line-height: 17px;
 }
 .slds {
   padding-bottom: 50px;
+}
+.swiper.swiperst2.button-prev {
+  background: none;
+}
+.swiper.swiperst2.button-prev:before {
+  background: url(/assets/img/blstrel1.png) no-repeat center center;
+}
+.swiper.swiperst2.button-prev:hover {
+  background: #ccc;
+}
+.swiper.swiperst2.button-next {
+  background: none;
+}
+.swiper.swiperst2.button-next:before {
+  background: url(/assets/img/blstrel2.png) no-repeat center center;
+}
+.swiper.swiperst2.button-next:hover {
+  background: #ccc;
 }
 .slider-main-1 .slds {
   padding-bottom: 0px;
@@ -138,6 +164,10 @@ header {
   border: 1px solid #8e8e8e;
   height: 28px;
   line-height: 28px;
+}
+.inkart:hover {
+  border-color: black;
+  color: black;
 }
 .sldsa {
   position: relative;
@@ -203,6 +233,7 @@ header {
   padding: 30px 10px 50px 10px;
   font-size: 14px;
   line-height: 16px;
+  font-family: "ProximaNovaRegular";
 }
 .sometextblock h5 {
   font-family: "ProximaNovaBlack";
@@ -234,4 +265,7 @@ header {
   right: 0;
   height: 60px;
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #ffffff);
+}
+.citytext {
+  font-size: 13px;
 }

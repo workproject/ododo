@@ -58,6 +58,12 @@ padding: 1px 0;
 	.sld .active{
 		background: #000!important;
 	}
+		
+	.tith3 .in-btn{
+		width: auto;
+		position: relative!important;
+		float: none;
+	}
 	
 }
 @media (max-width: 1270px) {
@@ -99,21 +105,21 @@ padding: 1px 0;
 	bottom: 40px;
 }
 
-.sld-def .priceorig{
+.slds .priceorig{
 	color: red;
 	font-family: "RobotoBold";
 	font-size: 30px;
 	float: left;
 }
-.sld-def .priceorig span{
+.slds .priceorig span{
 	font-size: 22px;
 	margin-left: 5px;;
 }
-.sld-def .pricedisc span{
+.slds .pricedisc span{
 	font-size: 15px;
 	margin-left: 5px;;
 }
-.sld-def .pricedisc{
+.slds .pricedisc{
 	float: left;
 	margin-left: 20px;;
 	margin-top: 5px;
@@ -124,12 +130,37 @@ padding: 1px 0;
 }
 .txt-slk{
 	margin-top: 10px;
+	font-family: "ProximaNovaRegular";
+ 	font-size: 13px;
+	line-height: 17px;
 }
 .slds{
 	padding-bottom: 50px;
 }
-.slider-main-1 .slds{
+	.swiper.swiperst2.button-prev{
+		background: none;
+
+		&:before{
+		background: url(/assets/img/blstrel1.png) no-repeat center center;
+	}
+	&:hover{
+		background: #ccc;
+	}		
+}
+	.swiper.swiperst2.button-next{
+		background: none;
+
+		&:before{
+		background: url(/assets/img/blstrel2.png) no-repeat center center;
+	}
+	&:hover{
+		background: #ccc;
+	}		
+}
+.slider-main-1 {
+	.slds{
 	padding-bottom: 0px;
+	}
 }
 
 .inkart{
@@ -145,6 +176,10 @@ padding: 1px 0;
 	border: 1px solid #8e8e8e;
 	height: 28px;
 	line-height: 28px;;
+	&:hover{
+		border-color: black;
+		color: black;
+	}
 }
 .sldsa{
 	position: relative;
@@ -215,6 +250,7 @@ padding: 1px 0;
 	padding: 30px 10px 50px 10px;
 	font-size: 14px;
 	line-height: 16px;
+	font-family: "ProximaNovaRegular";
 	h5 {
 		font-family: "ProximaNovaBlack";
 		margin-top: 20px;
@@ -248,4 +284,7 @@ padding: 1px 0;
     right: 0;
     height: 60px;
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+}
+.citytext{
+	font-size: 13px;
 }
