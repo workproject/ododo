@@ -73,6 +73,7 @@
 	font-style: normal;
 	font-weight: normal;
 }
+/*
 @font-face {
 	font-family: "Museo300";
 	src: url("../fonts/Museo/MuseoCyrl-300.eot");
@@ -80,7 +81,7 @@
 	font-style: normal;
 	font-weight: normal;
 }
-
+*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -2988,7 +2989,18 @@ table.tgr {
 	background: url(../img/404.jpg) no-repeat top left;
 	padding-left: 170px;
 }
-
+.bghjsort {
+	background: url(../img/404.jpg) no-repeat top left;
+	padding-left: 170px;
+	min-height: 130px;
+}
+.bord{
+	padding: 20px;
+	box-sizing: border-box;
+	border: 4px solid #482a76;
+	border-radius: 10px;
+	
+}
 .wr-csl {
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -6029,7 +6041,8 @@ position: absolute;
  .owl-theme .owl-nav .owl-next{
  	width: 45px;
 	height: 45px;
-	background-color: rgba(219, 213, 228, 0.7);
+	/*background-color: rgba(219, 213, 228, 0.7);*/
+	 background-color: rgba(255,255,255, 0.7);
 	border-radius: 50%;
 	font-size: 0;
 	border: none;
@@ -6066,7 +6079,11 @@ position: absolute;
 	transform: translate(-50%,-50%);
     width: 11px;
     height: 22px;
-    background: url(../img/lleft.png) no-repeat center center;
+    /*background: url(../img/lleft.png) no-repeat center center;*/
+	background: url(../img/blstrel1.png) no-repeat center center;
+	 
+	 
+	 
  }
  .owl-next:hover,
  .owl-theme .owl-nav .owl-next:hover {
@@ -6084,7 +6101,8 @@ position: absolute;
 	transform: translate(-50%,-50%);
     width: 11px;
     height: 22px;
-    background: url(../img/rrig.png) no-repeat center center;
+    /*background: url(../img/rrig.png) no-repeat center center;*/
+	 background: url(../img/blstrel2.png) no-repeat center center;
  }
 
  .line {
@@ -12857,7 +12875,7 @@ padding: 1px 0;
 }
 .swiper.swiperst2.button-prev {
   background: none;
-  left: 0px;
+  left: -7px;
   width: 24px;
   height: 24px;
 }
@@ -12869,7 +12887,7 @@ padding: 1px 0;
 }
 .swiper.swiperst2.button-next {
   background: none;
-  right: 0px;
+  right: -7px;
   width: 24px;
   height: 24px;
 }
@@ -12883,7 +12901,8 @@ padding: 1px 0;
   padding-bottom: 0px;
 }
 .inkart {
-	font-family: "Museo300";
+	/*font-family: "Museo300";*/
+	font-family: "ProximaNovaRegular";
   position: absolute;
   bottom: 0;
   left: 20px;
@@ -13015,6 +13034,7 @@ padding: 1px 0;
 }
 .citytext {
   font-size: 13px;
+font-family: "ProximaNovaRegular";	
 }
 .padmain {
   padding: 0 20px 0 20px;
