@@ -1,5 +1,11 @@
 $(document).ready(function(){
+	
 	$('.mh').matchHeight();
+			$('.slider-for').on('init', function(event, slick, direction){
+										  console.log(slick);
+										  $('.slider-for .slick-slide').matchHeight();
+										  // left
+										});
 	$('.mobile-menu').click(function(){
 		$('.shild-men').stop().animate({left: "0"}, 500);
 	})
@@ -208,6 +214,7 @@ function fastView(th){
 					infinite: false,		
 					asNavFor: '.slider-for',
 					focusOnSelect: true,
+		
 					responsive: [
 						{
 							breakpoint: 768,

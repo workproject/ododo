@@ -13177,3 +13177,14 @@ position:relative;
 display:inline-block; /*required*/	
 	
 }
+		.slick-initialized .slick-slide{
+			position: relative;
+		}
+		.slick-initialized a.slick-current img{
+		 position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+		}
