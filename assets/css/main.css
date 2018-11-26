@@ -73,6 +73,14 @@
 	font-style: normal;
 	font-weight: normal;
 }
+@font-face {
+	font-family: "Museo300";
+	src: url("../fonts/Museo/MuseoCyrl-300.eot");
+	src: url("../fonts/Museo/MuseoCyrl-300.eot?#iefix") format("embedded-opentype"), url("../fonts/Museo/MuseoCyrl-300.woff") format("woff"), url("../fonts/Museo/MuseoCyrl-300.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -5472,6 +5480,7 @@ table.tgr {
 
  .rig-i {
 	 margin-left: -44px;;
+	 
  	width: 570px;
  	position: relative;
  }
@@ -5802,9 +5811,14 @@ margin: 0 10px 0 10px;
  .str {
  	width: 33px;
  	height: 34px;
+	 /*
  	background-image: -webkit-linear-gradient(bottom left, #312a6c 0%, #852d91 100%) !important;
  	background-image: -o-linear-gradient(bottom left, #312a6c 0%, #852d91 100%) !important;
  	background-image: linear-gradient(to top right, #312a6c 0%, #852d91 100%) !important;
+	 */
+	  
+	 background-color: rgba(186, 186, 186, 0.5);
+	 background-repeat: no-repeat;
  	border-radius: 50%;
  	z-index: 100;
  	cursor: pointer;
@@ -5838,6 +5852,7 @@ margin: 0 10px 0 10px;
 
  .prev span {
  	background: url(../img/left.png);
+	 /*background-image: url(../img/blstrel1.png);*/
  	background-size: auto;
  	background-repeat: no-repeat;
  	background-position: center center;
@@ -5880,11 +5895,11 @@ margin: 0 10px 0 10px;
  	background: #fff;
  }
  .sld .bx-default-pager {
- 	position: absolute;
- 	bottom: 55px;
- 	right: 0;
+ 	position: relative;
+ 	bottom: auto;
+ 	right: auto;
  	text-align: center;
- 	padding-left: 70px;
+ 	margin-top: -90px;
  }
  .sld .bx-wrapper .bx-pager-item {
  	display: inline-block;
@@ -6189,6 +6204,7 @@ position: absolute;
  .retin-c>.stars{
  	margin:0;
  }
+/*
  .stars>.full{
  	position:absolute;
  	left:0;
@@ -6197,7 +6213,8 @@ position: absolute;
  	background-color:#ffdc64;
  	z-index:1;
  }
- .stars:before{
+*/
+.stars:before{
  	display: block;
  	content: '';
  	position:absolute;
@@ -6205,7 +6222,9 @@ position: absolute;
  	left:0;	 
  	width:100%;
  	height:100%;
- 	background: url('../img/stars_1.png') no-repeat scroll 0 0 transparent;	
+ 	/*background: url('../img/stars_1.png') no-repeat scroll 0 0 transparent;	*/
+	 background: url('../img/stars.png') no-repeat scroll 0 0 transparent;
+	 
  	z-index:2;
  }
  
@@ -12177,12 +12196,12 @@ label.lof>.selectbox {
     		margin-top: -58px;
     		left: auto;
     	}
-
+/*
     	.sld .btn {
     		width: 100%;
     		margin-top: 5px !important;
     	}
-
+*/
     	.wr-b {
     		-display: -webkit-flex;
     		display: -moz-flex;
@@ -12787,76 +12806,6 @@ padding: 1px 0;
   width: 140px;
   display: inline-block;
 }
-@media (max-width: 992px) {
-  .contacttop {
-    display: none;
-  }
-  .mobile-menu,
-  .shild-men {
-    display: block;
-  }
-  .menucol {
-    display: none;
-  }
-  .wr-t {
-    margin-top: -50px;
-  }
-  .in-rt {
-    border: none;
-  }
-}
-@media (max-width: 768px) {
-  .lf1 {
-    text-align: center;
-  }
-  .in-r,
-  .l-i {
-    margin: auto;
-    float: none;
-  }
-  .logo {
-    float: none;
-  }
-  .wr-b .btn {
-    bottom: 0!important;
-    right: 0!important;
-  }
-  .sld .bx-default-pager {
-    padding-left: 0;
-  }
-  .pst1 {
-    top: 20%;
-    left: 0;
-  }
-  .pst2 {
-    top: 20%;
-    right: 0;
-  }
-  .sld .active {
-    background: #000!important;
-  }
-  .tith3 .in-btn {
-    width: auto;
-    position: relative!important;
-    float: none;
-  }
-}
-@media (max-width: 1270px) {
-  .rig-i {
-    margin: 0;
-    width: 100%;
-  }
-  .citytext {
-    display: none;
-  }
-  .contacttop {
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
-  nav.menu {
-    padding-left: 40px;
-  }
-}
 .lf1 {
   padding-right: 0;
 }
@@ -12913,7 +12862,7 @@ padding: 1px 0;
   height: 24px;
 }
 .swiper.swiperst2.button-prev:before {
-  background: url(/assets/img/blstrel1.png) no-repeat center center;
+  background: url(../img/blstrel1.png) no-repeat center center;
 }
 .swiper.swiperst2.button-prev:hover {
   background: #ccc;
@@ -12925,7 +12874,7 @@ padding: 1px 0;
   height: 24px;
 }
 .swiper.swiperst2.button-next:before {
-  background: url(/assets/img/blstrel2.png) no-repeat center center;
+  background: url(../img/blstrel2.png) no-repeat center center;
 }
 .swiper.swiperst2.button-next:hover {
   background: #ccc;
@@ -12934,6 +12883,7 @@ padding: 1px 0;
   padding-bottom: 0px;
 }
 .inkart {
+	font-family: "Museo300";
   position: absolute;
   bottom: 0;
   left: 20px;
@@ -12944,7 +12894,7 @@ padding: 1px 0;
   font-size: 13px;
   color: #8e8e8e;
   border: 1px solid #8e8e8e;
-  height: 28px;
+  
   line-height: 28px;
 }
 .inkart:hover {
@@ -13093,3 +13043,100 @@ background: url(../img/sortabsentblock.png) no-repeat;
 	bottom: -57px;
 	right: 40px;
 	}
+		.headerwrapper{
+			max-width: 1360px;
+			margin: 0 auto 0 auto;
+		}		
+@media (min-width: 1500px) {
+	.headerwrapper{
+		max-width: 100%;
+		padding: 0 20px 0 20px;
+	}
+	
+	.wrapline2 .col-lg-6{
+		    flex: 0 0 25%;
+    		max-width: 25%;
+	}
+		.wrapline2 .col-lg-12{
+		    flex: 0 0 50%;
+    		max-width: 50%;
+	}
+
+	.rig-i{
+			margin: auto;
+	}
+		}
+@media (max-width: 992px) {
+  .contacttop {
+    display: none;
+  }
+  .mobile-menu,
+  .shild-men {
+    display: block;
+  }
+  .menucol {
+    display: none;
+  }
+  .wr-t {
+    margin-top: -50px;
+  }
+  .in-rt {
+    border: none;
+  }
+}
+@media (max-width: 768px) {
+  .lf1 {
+    text-align: center;
+  }
+  .in-r,
+  .l-i {
+    margin: auto;
+    float: none;
+  }
+  .logo {
+    float: none;
+  }
+  .wr-b .btn {
+    bottom: 0!important;
+    right: 0!important;
+  }
+  .sld .bx-default-pager {
+    padding-left: 0;
+  }
+  .pst1 {
+    top: 20%;
+    left: 0;
+  }
+  .pst2 {
+    top: 20%;
+    right: 0;
+  }
+  .sld .active {
+    background: #000!important;
+  }
+  .tith3 .in-btn {
+    width: auto;
+    position: relative!important;
+    float: none;
+  }
+	.sld .bx-default-pager{
+		display: none;
+	}
+}
+@media (max-width: 1270px) {
+  .rig-i {
+    margin: 0;
+    width: 100%;
+  }
+  .citytext {
+    display: none;
+  }
+  .contacttop {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  nav.menu {
+    padding-left: 40px;
+  }
+}
+		
