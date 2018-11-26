@@ -5506,7 +5506,7 @@ table.tgr {
  	color: #b5b0b6;
  	font-family: "ProximaNovaRegular";
  	font-size: 13px;
- 	border-radius: 15px;
+ 	border-radius: 25px;
  	outline: none;
  }
  .rig-i input[type=submit] {
@@ -5518,8 +5518,8 @@ table.tgr {
  	top: 50%;
  	margin-top: -20px;
  	right: 0;
- 	border-bottom-right-radius: 15px;
-	 border-top-right-radius: 15px;
+ 	border-bottom-right-radius: 25px;
+	 border-top-right-radius: 25px;
  	outline: none;
  	cursor: pointer;
  }
