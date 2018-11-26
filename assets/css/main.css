@@ -7046,7 +7046,7 @@ position: absolute;
  }
  .menu-f li {
  	width: 189px;
- 	margin-top: 10px;
+ 	margin-top: 8px;
  }
  .menu-f li:first-child {
  	margin-top: 0;
@@ -13160,4 +13160,7 @@ background: url(../img/sortabsentblock.png) no-repeat;
     padding-left: 40px;
   }
 }
-		
+
+.slds:hover .priceorig {
+color: #522b7a;
+}
