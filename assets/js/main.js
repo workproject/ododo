@@ -1,6 +1,12 @@
 $(document).ready(function(){
 	
 	$('.mh').matchHeight();
+	$('.moretext').click(function(e){
+		e.preventDefault();
+		$(this).hide();
+		$(".gradtext").removeClass("active");
+	});
+	
 			$('.slider-for').on('init', function(event, slick, direction){
 										  console.log(slick);
 										  $('.slider-for .slick-slide').matchHeight();

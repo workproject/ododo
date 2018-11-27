@@ -13019,11 +13019,14 @@ padding: 1px 0;
   text-decoration: none;
 }
 .gradtext {
-  max-height: 210px;
-  overflow: hidden;
   position: relative;
 }
-.gradtext:after {
+.gradtext.active{
+  max-height: 210px;
+  overflow: hidden;
+}
+
+.gradtext.active:after {
   content: " ";
   display: block;
   position: absolute;
