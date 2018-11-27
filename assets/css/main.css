@@ -73,6 +73,13 @@
 	font-style: normal;
 	font-weight: normal;
 }
+@font-face {
+    font-family: 'RobotoBlack';
+    src: local('Roboto Black'), local('Roboto-Black'), url('../fonts/RobotoBlack/robotoblack.woff2') format('woff2'), url('../fonts/RobotoBlack/robotoblack.woff') format('woff'), url('../fonts/RobotoBlack/robotoblack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
 /*
 @font-face {
 	font-family: "Museo300";
@@ -5822,8 +5829,8 @@ margin: 0 10px 0 10px;
  	font-size: 17px;
  }
  .str {
- 	width: 33px;
- 	height: 34px;
+ 	width: 47px;
+ 	height: 47px;
 	 /*
  	background-image: -webkit-linear-gradient(bottom left, #312a6c 0%, #852d91 100%) !important;
  	background-image: -o-linear-gradient(bottom left, #312a6c 0%, #852d91 100%) !important;
@@ -5874,7 +5881,7 @@ margin: 0 10px 0 10px;
  	height: 12px;
  	margin: 0 auto;
  	position: relative;
- 	top: 12px;
+ 	top: 17px;
  }
 
 
@@ -5888,7 +5895,7 @@ margin: 0 10px 0 10px;
  	height: 12px;
  	margin: 0 auto;
  	position: relative;
- 	top: 12px;
+ 	top: 17px;
  }
 
  .bx-wrapper {
@@ -8753,7 +8760,7 @@ position: absolute;
 	transform: translate(-50%,-50%);
     width: 11px;
     height: 22px;
-    background: url(../img/lleft.png) no-repeat center center;
+    background: url(../img/blstrel1.png) no-repeat center center;
 }
 .swiper.button-next:before{
 	cursor: pointer;
@@ -8764,7 +8771,8 @@ position: absolute;
 	transform: translate(-50%,-50%);
     width: 11px;
     height: 22px;
-    background: url(../img/rrig.png) no-repeat center center;
+    /*background: url(../img/rrig.png) no-repeat center center;*/
+	background: url(../img/blstrel2.png) no-repeat center center;
 }
 @media (max-width: 767px){
 	.swiper.button-next,
@@ -12844,13 +12852,15 @@ padding: 1px 0;
 }
 .slds .priceorig {
   color: red;
-  font-family: "RobotoBold";
+  font-family: 'RobotoBlack';
   font-size: 30px;
   float: left;
 }
 .slds .priceorig span {
-  font-size: 22px;
+  font-size: 24px;
   margin-left: 5px;
+	font-family: 'RobotoBlack';
+	font-weight: bold;
 }
 .slds .pricedisc span {
   font-size: 15px;
@@ -12875,10 +12885,12 @@ padding: 1px 0;
   padding-bottom: 50px;
 }
 .swiper.swiperst2.button-prev {
-  background: none;
+  background:  #fff;
   left: -7px;
-  width: 24px;
-  height: 24px;
+  width: 47px;
+  height: 47px;
+	opacity: 0.7;
+	
 }
 .swiper.swiperst2.button-prev:before {
   background: url(../img/blstrel1.png) no-repeat center center;
@@ -12887,10 +12899,11 @@ padding: 1px 0;
   background: #ccc;
 }
 .swiper.swiperst2.button-next {
-  background: none;
   right: -7px;
-  width: 24px;
-  height: 24px;
+	  background:  #fff;
+  width: 47px;
+  height: 47px;
+	opacity: 0.7;
 }
 .swiper.swiperst2.button-next:before {
   background: url(../img/blstrel2.png) no-repeat center center;
