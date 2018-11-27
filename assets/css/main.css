@@ -13109,6 +13109,19 @@ background: url(../img/sortabsentblock.png) no-repeat;
   }
 }
 @media (max-width: 768px) {
+	.lkio{
+		display: none;
+	}
+	.tith3 .h3{
+		font-size: 10px;
+	}
+	.slds .priceorig span{
+		font-size: 12px;
+	}
+	.slds .priceorig {
+		font-size: 17px;
+	}
+	
   .lf1 {
     text-align: center;
   }
