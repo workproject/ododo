@@ -6558,7 +6558,7 @@ position: absolute;
  }
 
  .ba {
- 	height: 170px;
+ 	min-height: 170px;
  	width: 100%;
  	background-color: #852d91;
  	     background: -moz-linear-gradient(45deg, rgba(49,42,108,1) 0%, rgba(49,42,108,1) 41%, rgba(133,45,145,1) 58%, rgba(133,45,145,1) 100%); /* ff3.6+ */
