@@ -12914,12 +12914,16 @@ padding: 1px 0;
 .slider-main-1 .slds {
   padding-bottom: 0px;
 }
+		.notowl .inkart {
+			left: 0px;		
+		}
 .inkart {
 	/*font-family: "Museo300";*/
 	font-family: "ProximaNovaRegular";
   position: absolute;
   bottom: 0;
   left: 20px;
+	
   margin-top: 15px;
   padding: 0 20px 0 20px;
   display: inline-block;
