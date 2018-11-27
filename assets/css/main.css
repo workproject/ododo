@@ -12886,7 +12886,7 @@ padding: 1px 0;
 }
 .swiper.swiperst2.button-prev {
   background:  #fff;
-  left: -7px;
+  left: -17px;
   width: 47px;
   height: 47px;
 	opacity: 0.7;
@@ -12899,7 +12899,7 @@ padding: 1px 0;
   background: #ccc;
 }
 .swiper.swiperst2.button-next {
-  right: -7px;
+  right: -17px;
 	  background:  #fff;
   width: 47px;
   height: 47px;
