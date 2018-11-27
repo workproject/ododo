@@ -8,6 +8,9 @@
 	<link rel="stylesheet" href="assets/css/main.css">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
 </head>
 <body>
 	<div class="wrapper-all">
@@ -271,6 +274,37 @@
 												<div class="spn">До 14 февраля</div>
 											</div>
 										</div>
+	  <script>
+  $( function() {
+    var availableTags = [
+      "ActionScript",
+      "AppleScript",
+      "Asp",
+      "BASIC",
+      "C",
+      "C++",
+      "Clojure",
+      "COBOL",
+      "ColdFusion",
+      "Erlang",
+      "Fortran",
+      "Groovy",
+      "Haskell",
+      "Java",
+      "JavaScript",
+      "Lisp",
+      "Perl",
+      "PHP",
+      "Python",
+      "Ruby",
+      "Scala",
+      "Scheme"
+    ];
+    $( ".dost" ).autocomplete({
+      source: availableTags
+    });
+  } );
+  </script>										
 										<div class="opa">
 											<div id="pagd1" class="it-pg">
 												<form class="fro" action="" method="post">

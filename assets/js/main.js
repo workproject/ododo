@@ -1,5 +1,6 @@
 $(document).ready(function(){
 	
+	
 	$('.mh').matchHeight();
 	$('.moretext').click(function(e){
 		e.preventDefault();
