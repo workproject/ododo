@@ -13233,7 +13233,7 @@ display:inline-block; /*required*/
     right: 0;
 		}
 		
-		.one-image-slider .slick-initialized a.slick-current img{
+		.one-image-slider.slick-initialized a.slick-current img{
 			position: relative;
     left: auto;
     top: auto;
