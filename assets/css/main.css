@@ -13240,3 +13240,9 @@ display:inline-block; /*required*/
     bottom: auto;
     right: auto;
 		}		
+		.slider-nav .slick-initialized .slick-slide{
+			border: 1px solid transparent;
+		}
+		.slider-nav .slick-initialized .slick-current{
+			border: 1px solid #000;
+		}
