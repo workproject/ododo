@@ -5944,12 +5944,12 @@ margin: 0 10px 0 10px;
  }
 .pst1{
  	top: 49%;
- 	left: 40px;
+ 	left: 30px;
 position: absolute;	
 }
 .pst2{
  	top: 49%;
- 	right: 40px;
+ 	right: 30px;
 position: absolute;	
 }
 
@@ -13098,13 +13098,19 @@ background: url(../img/sortabsentblock.png) no-repeat;
 		.headerwrapper{
 			max-width: 1360px;
 			margin: 0 auto 0 auto;
-		}		
+			padding: 0 20px 0 20px;
+			box-sizing: border-box;
+		}	
+		.rig{
+			padding-left: 0;
+		}
 @media (min-width: 1500px) {
+	/*
 	.headerwrapper{
 		max-width: 100%;
 		padding: 0 20px 0 20px;
 	}
-	
+	*/
 	.wrapline2 .col-lg-6{
 		    flex: 0 0 25%;
     		max-width: 25%;
