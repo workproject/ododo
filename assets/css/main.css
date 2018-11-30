@@ -6221,6 +6221,9 @@ position: absolute;
  	font-size: 13px;
  	line-height: 17px;
  	width: 109px;
+	 max-height: 54px;
+overflow: hidden;
+text-overflow: ellipsis;
  }
  .stars {
  	background: transparent !important;
