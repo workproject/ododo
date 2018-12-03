@@ -178,7 +178,7 @@ ul.bxslider {
 .bx-viewport {
 	-webkit-transform: translatez(0);
 }
-
+		
 .bx-wrapper .bx-controls-auto, .bx-wrapper .bx-pager {
 	position: absolute;
 	bottom: -30px;
@@ -10904,13 +10904,18 @@ label.lof>.selectbox {
     		line-height: 40px;
     	}
     }
-
-@media (max-width: 768px) and (max-width: 1199px) {
+.rig{
+			padding-left: 0;
+		}
+@media (max-width: 1199px) {
 .mid {
     		order: 1;
     		padding: 0 35px;
     		margin-top: 20px;
     	}
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+
 	.smal_l,.smal_r{
 		display: flex;
 		justify-content: center;
@@ -13133,9 +13138,7 @@ background: url(../img/sortabsentblock.png) no-repeat;
 			padding: 0 20px 0 20px;
 			box-sizing: border-box;
 		}	
-		.rig{
-			padding-left: 0;
-		}
+
 @media (min-width: 1500px) {
 	/*
 	.headerwrapper{
