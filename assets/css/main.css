@@ -10644,6 +10644,7 @@ label.lof>.selectbox {
     		margin-left: 20px;
     	}
 
+	/*
     	.baners-top {
     		height: 431px;
     		width: 360px;
@@ -10653,10 +10654,8 @@ label.lof>.selectbox {
     		width: calc(100% - 360px);
     		height: 409px;
     	}
-
-    	.sld .bx-default-pager {
-    		bottom: 81px;
-    	}
+*/
+    	
     }
     @media (max-width: 1260px) {
     	.wrapper {
