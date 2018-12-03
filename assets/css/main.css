@@ -10905,7 +10905,7 @@ label.lof>.selectbox {
     	}
     }
 
-@media (max-width: 1199px) {
+@media (max-width: 768px) and (max-width: 1199px) {
 .mid {
     		order: 1;
     		padding: 0 35px;
@@ -10920,7 +10920,9 @@ label.lof>.selectbox {
     	.wrapper {
     		width: 768px;
     	}
-
+		.rig{
+			padding-left: 30px;
+		}
     	.up1,.catbut {
     		display: none !important;
     	}
