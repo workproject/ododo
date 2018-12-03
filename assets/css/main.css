@@ -6880,6 +6880,7 @@ text-overflow: ellipsis;
  }
 
  .bnre {
+	background-repeat: no-repeat; 
  	background-position: center center;
  	background-size: contain;
  	height: 92px;
