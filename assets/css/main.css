@@ -6881,7 +6881,7 @@ text-overflow: ellipsis;
 
  .bnre {
  	background-position: center center;
- 	background-size: cover;
+ 	background-size: contain;
  	height: 92px;
  	padding: 0;
  }
