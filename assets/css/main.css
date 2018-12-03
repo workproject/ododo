@@ -10848,11 +10848,7 @@ label.lof>.selectbox {
     		display: none;
     	}
 
-    	.mid {
-    		order: 1;
-    		padding: 0 35px;
-    		margin-top: 20px;
-    	}
+    	
 
     	.in-r {
     		margin-top: 7px;
@@ -10908,6 +10904,18 @@ label.lof>.selectbox {
     		line-height: 40px;
     	}
     }
+
+@media (max-width: 1199px) {
+.mid {
+    		order: 1;
+    		padding: 0 35px;
+    		margin-top: 20px;
+    	}
+	.smal_l,.smal_r{
+		display: flex;
+		justify-content: center;
+	}
+}
     @media (max-width: 992px) {
     	.wrapper {
     		width: 768px;
