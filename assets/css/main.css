@@ -13441,16 +13441,134 @@ width: 30px;
 			margin: 15px 0;
 			padding-top: 5px;;
 		}
+		.testomt1{
+			font-family: "ProximaNovaBold";
+			color: #111011;
+			font-size: 24px;;
+			margin: 0px 0 15px 0;
+			
+		}
+		.testomlines{
+			margin-top: 20px;
+			max-width: 300px;
+			width: 100%;
+			table-layout: fixed;
+		}
+		.testomlines td{
+			padding-bottom: 20px;
+		}
+		.testomlines td:nth-child(1){
+			color: #000;
+			font-family: "ProximaNovaRegular";
+			font-size: 16px;
+			
+			width: 22px;
+		}
+		.testomlines td:nth-child(3){
+			color: #bababa;
+			font-family: "ProximaNovaRegular";
+			font-size: 16px;
+			padding-right: 12px;
+			width: 45px;
+			padding-left: 12px;
+		}
+		.testomlines div{
+			border: 1px solid #cdcdcd;
+			border-radius: 5px;
+			height: 10px;
+			position: relative;
+		}
+		.testomlines i{
+			position: absolute;
+			height: 10px;
+			top: -1px;
+			left: 0px;
+			background: #852d91;
+			border-radius: 5px;
+		}
+		.wrappercard .col-md-12{
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+		.wrappercard{
+			max-width: 1300px;
+			margin: 0 auto;
+		}
+		.ask{
+			display: flex;
+			justify-content: center;
+			font-family: "ProximaNovaRegular";
+			color: #000;
+			font-size: 15px;
+
+		}
+		.bigmarg.tith3{
+			padding: 40px 0 25px 0;
+		}
+		.askblock{
+			margin-top: 50px;
+			padding: 60px 0 70px 0;
+			border-bottom: 1px solid #e7e7e7;
+			border-top: 1px solid #e7e7e7;
+		}
+		.askblock .titcardh3{
+			margin-top: 0;
+		}
 		
+		.ask .in-btn{
+			margin-left: 30px;
+		}
+		.testombox{
+			padding: 20px 25px;
+			background: #f8f8f8;
+			font-family: "ProximaNovaRegular";
+			color: #000;
+			font-size: 13px;
+			line-height: 17px;
+			margin-bottom: 20px;
+		}
+		.testombox table td{ padding-right: 10px;}
+		.tstdate{
+			color: #bababa;
+				font-family: "ProximaNovaRegular";
+			font-size: 13px;
+			margin: 10px 0 10px 0;
+		}
+		.starstst{
+			margin: 10px 0 10px  0;
+		}
 		.tablecard{
 			font-family: "ProximaNovaRegular";
 			color: #111011;
 			font-size: 14px;
+		
 		}		
 		.tablecard ul{
-			margin: 15px 0 15px 0;
+			list-style-position: inside;
+			list-style-type: square;
+			margin: 30px 0 30px 0;
 		}
-		
+		.tablecard b{
+				font-family: "ProximaNovaBold";
+		}
+		.tablecard ul li{
+			margin-bottom: 10px;
+		}
+		.tablecard table{
+			width: 100%;
+			table-layout: fixed;
+			margin-bottom: 30px;
+			margin-top: 10px;
+		}
+		.tablecard table td{
+			padding: 10px 15px;
+		}
+		.tablecard table tr:nth-child(2n-1){
+			background: #f8f8f8;
+		}
+		.tablecard table td:first-child{
+			color: #999999;
+		}
 		.colnk1{
 			float: left;
 			width: 30%;
