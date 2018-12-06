@@ -7,6 +7,21 @@ $(document).ready(function(){
 		$(this).hide();
 		$(".gradtext").removeClass("active");
 	});
+	$('.moretextdouble').click(function(e){
+		e.preventDefault();
+		$(this).hide();
+		$(".graddoubletext").removeClass("active");
+	});
+	
+	
+	
+	
+		$(".ontop").click(function (){
+			$("body,html").animate({
+				scrollTop:0
+			}, 800);
+			return false;
+		});
 	
 			$('.slider-for').on('init', function(event, slick, direction){
 										  console.log(slick);

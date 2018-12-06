@@ -9451,9 +9451,9 @@ label.lof>.selectbox {
     }
 
     .ch-c .galka {
-    	width: 18px;
-    	height: 18px;
-    	border: 1px solid #989898;
+    	width: 37px;
+    	height: 37px;
+    	border: 1px solid #898989;
     	background-color: #fff;
     	float: left;
     }
@@ -9539,16 +9539,18 @@ label.lof>.selectbox {
     	background: url(../img/add-p.png) no-repeat center center;
     	background-size: contain;
     	width: 100%;
-    	max-width: 27px;
-    	height: 27px;
+    	max-width: 12px;
+    	height: 12px;
+		margin-top: 110px;
     }
 
     .rown {
     	background: url(../img/rown.png) no-repeat center center;
     	background-size: contain;
     	width: 100%;
-    	max-width: 27px;
-    	height: 18px;
+    	max-width: 12px;
+    	height: 8px;
+		margin-top: 110px;
     }
     @media (min-width: 992px){
     	.rown,
@@ -9573,8 +9575,9 @@ label.lof>.selectbox {
 
     .ch-c {
     	position: absolute;
-    	top: -15px;
-    	left: -10px;
+    	top: 7px;
+    	left: 7px;
+		z-index: 1;
     }
 
     .tre a {
@@ -9595,6 +9598,34 @@ label.lof>.selectbox {
     	margin-top: 10px;
     }
 
+    .un2 {
+    	display: block;
+    	color: #656565;
+    	font-size: 21px;
+    	font-family: "RobotoLight";
+		text-decoration: line-through;
+		margin-bottom: 5px;
+    }
+.economy{
+	color: #32abff;
+	font-size: 12px;
+	font-family: "ProximaNovaBold";
+	font-weight: 400;
+	margin: 10px 0 10px 0;
+}
+.korzwrap{
+	display: flex;
+	width: 226px;
+	height: 226px;
+	border: 1px dashed #cdcdcd;
+	text-align: center;
+	justify-content: center;
+	flex-flow: column;
+}
+.korzwrap .btn{
+	margin-left: auto;
+	margin-right: auto;
+}
     .un {
     	display: block;
     	color: #656565;
@@ -9621,7 +9652,7 @@ label.lof>.selectbox {
     	text-fill-color: transparent;
     	background-image: linear-gradient(45deg, #312a6c 0%, #852d91 100%);
     	color: #656565;
-    	font-family: "RobotoBold";
+    	font-family: "ProximaNovaExtrabold";
     	font-size: 30px;
     	line-height: 30px;
     }
@@ -10434,6 +10465,16 @@ label.lof>.selectbox {
     	font-family: "ProximaNovaBlack";
     	font-size: 16px;
     }
+.bggr{
+	background-color: #faf7fb;
+}
+.bggr .titcardh3{
+	margin-bottom: 0;
+}
+.bggr .slds{
+	width: 226px;
+	padding-bottom: 0;
+}
 
     .wr-rpl {
     	display: -webkit-flex;
@@ -10446,15 +10487,15 @@ label.lof>.selectbox {
     	-o-display: flex;
     	display: flex;
     	justify-content: center;
-    	align-items: center;
-    	background-color: #f7fafa;
     	padding: 30px 20px;
     	margin-bottom: 20px;
     }
     .wr-rpl img {
     	display: block;
-    	width: 156px;
-    	height: 154px;
+    	width: 100%;
+		width: 226px;
+		height: 226px;
+    	
     	object-fit: cover;
     }
 
@@ -10663,7 +10704,7 @@ label.lof>.selectbox {
     	
     }
     @media (max-width: 1260px) {
-    	.wrapper {
+    	.wrapper,.wrappercard {
     		width: 992px;
     	}
 
@@ -10926,7 +10967,7 @@ label.lof>.selectbox {
 	}
 }
     @media (max-width: 992px) {
-    	.wrapper {
+    	.wrapper,.wrappercard {
     		width: 768px;
     	}
 		.rig{
@@ -11358,7 +11399,7 @@ label.lof>.selectbox {
 		.ssort .lof span{
 			margin-top: 10px;
 		}
-    	.wrapper {
+    	.wrapper,.wrappercard {
     		width: 450px;
     	}
 
@@ -11762,7 +11803,7 @@ label.lof>.selectbox {
     	.rown {
     		position: relative;
     		top: 20px;
-    		left: -15px;
+    		left: 0px;
     	}
 
     	.l-i {
@@ -11819,7 +11860,7 @@ label.lof>.selectbox {
     	}
 
     	.uytrk {
-    		margin: 0 -63px 0 -63px;
+    	
     	}
 
     	.stryh {
@@ -11901,7 +11942,7 @@ label.lof>.selectbox {
     	}
     }
     @media (max-width: 450px) {
-    	.wrapper {
+    	.wrapper,.wrappercard {
     		width: 320px;
     	}
 
@@ -13080,7 +13121,7 @@ display:inline-block; /*required*/
   margin-bottom: 20px;
   font-size: 16px;
 }
-.sometextblock a {
+.sometextblock a,.moretextdouble {
   display: block;
   font-size: 14px;
   color: #852d91;
@@ -13090,15 +13131,19 @@ display:inline-block; /*required*/
 .sometextblock a:hover {
   text-decoration: none;
 }
-.gradtext {
+.gradtext,.graddoubletext {
   position: relative;
 }
 .gradtext.active{
   max-height: 210px;
   overflow: hidden;
 }
+.graddoubletext.active {
+  max-height: 333px;
+  overflow: hidden;
+}
 
-.gradtext.active:after {
+.gradtext.active:after,.graddoubletext.active:after  {
   content: " ";
   display: block;
   position: absolute;
@@ -13448,8 +13493,45 @@ width: 30px;
 			margin: 0px 0 15px 0;
 			
 		}
+		.relfortop{
+			position: relative;
+		}
+		.ontop{
+			color: #a7a7a7;
+			font-family: "ProximaNovaRegular";
+			font-size: 12px;
+			background: url(../img/cardico8.png) no-repeat center top;
+			width: 53px;
+			height: 72px;
+			padding-top: 60px;
+			box-sizing: border-box;
+			text-align: center;
+			display: block;
+			position: absolute;
+			right: -50px;
+			top: 95px;
+		}
+		.besttestom{
+			margin: 30px 0 30px 0;
+			
+		}
+		.besttestom a{
+			display: inline-block;
+			position: relative;
+			color: #852d91;
+			font-family: "ProximaNovaRegular";
+			font-size: 12px;
+			
+		}
+		.besttestom i{
+			background: url(../img/moretestom.png) no-repeat center top;
+			width: 9px;
+			height: 5px;
+			display: inline-block;
+			margin: -2px 0 0 5px;
+		}
 		.testomlines{
-			margin-top: 20px;
+			margin: 20px auto 0 auto;
 			max-width: 300px;
 			width: 100%;
 			table-layout: fixed;
@@ -13485,6 +13567,10 @@ width: 30px;
 			left: 0px;
 			background: #852d91;
 			border-radius: 5px;
+		}
+		.wrappercard .row{
+			margin-left: -20px;;
+			margin-right: -20px;;
 		}
 		.wrappercard .col-md-12{
 			padding-left: 20px;
@@ -13602,6 +13688,13 @@ width: 30px;
 			}
 		}
 		@media (max-width: 768px) {
+			.center-xs{
+				text-align: center;
+			}
+			.wrappercard{
+				padding-left: 10px ;
+				padding-right: 10px;;
+			}
 			.colnk1,.colnk2,.colnk3{
 			padding-right: 0px;
 				padding-left: 0;
