@@ -6075,8 +6075,11 @@ position: absolute;
  }
  .owl-prev:hover,
  .owl-theme .owl-nav .owl-prev:hover{
- 	background-color: #852d91;
+ 	/*
+	 background-color: #852d91;
  	background-image: linear-gradient(45deg, #312a6c 0%, #852d91 100%);
+	 */
+	 background: #ccc;
  }
 
  .owl-prev:before,
@@ -6097,8 +6100,11 @@ position: absolute;
  }
  .owl-next:hover,
  .owl-theme .owl-nav .owl-next:hover {
- 	background-color: #852d91;
+ 	/*
+	 background-color: #852d91;
  	background-image: linear-gradient(45deg, #312a6c 0%, #852d91 100%);
+	 */
+	 background: #ccc;
  }
 
  .owl-next:before,
@@ -6713,7 +6719,7 @@ text-overflow: ellipsis;
 
  .main {
  	color: #32abff;
- 	font-family: "ProximaNovaBold";
+ 	font-family: "ProximaNovaRegular";
  	font-size: 12px;
  	letter-spacing: 0.47px;
  	position: relative;
@@ -13398,7 +13404,7 @@ font-family: 'RobotoBlack';
 font-weight: 600;
 		}
 		.tovar_count input{
-			font-size: 24px;;
+			font-size: 22px;
 			margin: 0 5px 0 5px;;
 			display: inline-block;
 width: 30px;
@@ -13550,9 +13556,10 @@ width: 30px;
 			display: block;
 		}
 		.besttestom ul{
+			background: #ccc;
 			display: none;
 			position: absolute;
-			top: 20px;
+			top: 25px;
 			left: 0px;
 			border: 1px solid #000;
 			padding: 5px;
@@ -13579,6 +13586,9 @@ width: 30px;
 			
 		}
 		.besttestom i{
+			width: 10px;
+			height: 10px;
+			cursor: pointer;
 			background: url(../img/moretestom.png) no-repeat center top;
 			width: 9px;
 			height: 5px;
@@ -13738,6 +13748,9 @@ width: 30px;
 		@media (min-width: 1261px)  and (max-width: 1460px) {
 			.ontop{
 				right: -27px;
+			}
+			.wrappercard .col-md-12{
+				padding-right: 36px;
 			}
 		}
 		@media (max-width: 1200px) {

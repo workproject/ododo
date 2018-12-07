@@ -15,7 +15,7 @@ $(document).ready(function(){
 	
 	
 	
-	$(".besttestomlink").click(function (e){
+	$(".besttestom i").click(function (e){
 		e.preventDefault();
 		$(".besttestom").toggleClass("active");
 	});
