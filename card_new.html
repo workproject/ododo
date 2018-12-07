@@ -153,6 +153,7 @@
 							<a class="main" href="index.html">Электроника</a>
 							<a class="main" href="index.html">Батарейки</a>
 							<strong>Батарейки C Kodak R14 (2 шт.)</strong>
+							<i>13 товаров</i>
 						</div>
 					</div>
 				</div>
@@ -166,13 +167,13 @@
 							<div class="sl-c">
 								<div class="slider-for card-static">
 									<a class="ex1" data-fancybox="gallery" href="assets/img/sld-c.jpg" data-src="./assets/img/sld-c.jpg">
+										<img src="assets/img/0.jpg" alt="">
+									</a>
+									<a data-fancybox="gallery" href="assets/img/sld-c.jpg">
 										<img src="assets/img/1.jpg" alt="">
 									</a>
 									<a data-fancybox="gallery" href="assets/img/sld-c.jpg">
 										<img src="assets/img/2.jpg" alt="">
-									</a>
-									<a data-fancybox="gallery" href="assets/img/sld-c.jpg">
-										<img src="assets/img/sld-c.jpg" alt="">
 									</a>
 									<a data-fancybox="gallery" href="assets/img/sld-c.jpg">
 										<img src="assets/img/sld-c.jpg" alt="">
@@ -233,7 +234,7 @@
 											slidesToShow: 1,
 											slidesToScroll: 1,
 											fade: false,
-											arrows: true,
+											arrows: false,
 											asNavFor: '.slider-nav',
 											infinite: true,
 											
@@ -242,8 +243,8 @@
 										$('.slider-nav').slick({
 											slidesToShow: 4,
 											slidesToScroll: 1,
-											arrows: false,
-											dots: true,
+											arrows: true,
+											dots: false,
 											infinite: false,		
 											asNavFor: '.slider-for',
 											focusOnSelect: true,
@@ -255,7 +256,7 @@
 							</div>
 							
 							<div class="colnk2">
-								<div class="nktitle">Батарейки C Kodak R14 (2 шт.)</div>
+								<div class="nktitle">Батарейки C Kodak R14 <span>(2 шт.)</span></div>
 								<div class="nkprice">19 999 <span>&#8381;</span></div>
 								<div class="ballblock">
 									<div class="ballblockh2">Вы сэкономили</div>
@@ -274,7 +275,7 @@
 								<script>
 	$(document).ready(function(){
 		var $countChangerBtn = $('.tovar_count .minus, .tovar_count .plus');
-console.log("df");
+
 		$countChangerBtn.on('click', function(){
 			var $this = $(this),
 				count = parseInt($this.parent().find('input').val()),
@@ -341,7 +342,7 @@ console.log("df");
 								<div class="slds">
 									<img src="assets/img/sld-m1.jpg" alt="">
 									<div style="background-image: url(assets/img/stars.png);" class="stars"><div class="full" style="width:40%;"></div></div>
-									<div class="bott clearfix">
+									<div class="bott clearfix action">
 											<div class="priceorig">99<span data-brackets-id="2558">₽</span></div>
 											<div class="pricedisc">299 <span data-brackets-id="2560">₽</span></div>
 									</div>									
@@ -438,7 +439,7 @@ console.log("df");
 										<i></i><div class="button">Беглый взгляд</div>
 									</div></a>
 									<div style="background-image: url(assets/img/stars.png);" class="stars"></div>
-									<div class="bott clearfix">
+									<div class="bott clearfix action">
 											<div class="priceorig">99<span>&#8381;</span></div>
 											<div class="pricedisc">299<span>&#8381;</span></div>
 									</div>									
@@ -629,7 +630,7 @@ console.log("df");
 							</div>
 						</div>
 				</div>
-	<div class="titcardh3 clearfix">
+	<div class="titcardh3 clearfix" id="detailbl">
 		<div class="dflx"><div class="h3">Подробнее о товаре и производителе</div></div>
 	</div>
 
@@ -745,8 +746,13 @@ console.log("df");
 			</div>
 			<div class="col-xl-9 col-lg-9 col-md-12 relfortop">
 			<a href="#" class="ontop">Наверх</a>
-				Показаны 1-8 из 258 отзывов
-				<div class="besttestom"><a href="#">Лучшие</a><i></i></div>
+				<div class="fontst">Показаны 1-8 из 258 отзывов</div>
+				<div class="besttestom"><a href="#" class="besttestomlink">Лучшие</a><i></i>
+					<ul>
+						<li><a href="">Лучшие</a></li>
+						<li><a href="">Актуальные</a></li>
+					</ul>
+				</div>
 				<div class="testombox">
 					<table>
 						<tr>
@@ -922,7 +928,7 @@ console.log("df");
 						<div class="soc">
 							<img src="assets/img/soc-s.png" alt="">
 						</div>
-						<a class="mtd" href="https://www.matadoro.ru/">Создание сайтов в Москве — <img src="assets/img/matador.png" alt="Матадор"></a>
+						<a class="mtd" href="https://www.matadoro.ru/">Создание сайтов в Москве</a>
 					</div>
 				</div>
 			</footer>

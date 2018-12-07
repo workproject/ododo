@@ -15,13 +15,23 @@ $(document).ready(function(){
 	
 	
 	
-	
+	$(".besttestomlink").click(function (e){
+		e.preventDefault();
+		$(".besttestom").toggleClass("active");
+	});
 		$(".ontop").click(function (){
 			$("body,html").animate({
 				scrollTop:0
 			}, 800);
 			return false;
 		});
+	$(".allprop").click(function (){
+			$("body,html").animate({
+				scrollTop: $("#detailbl").offset().top
+			}, 800);
+			return false;
+		});
+	 
 	
 			$('.slider-for').on('init', function(event, slick, direction){
 										  console.log(slick);

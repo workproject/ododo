@@ -6714,7 +6714,7 @@ text-overflow: ellipsis;
  .main {
  	color: #32abff;
  	font-family: "ProximaNovaBold";
- 	font-size: 19px;
+ 	font-size: 12px;
  	letter-spacing: 0.47px;
  	position: relative;
  	top: 9px;
@@ -6730,7 +6730,7 @@ text-overflow: ellipsis;
  }
 
  .l-gg {
- 	padding: 26px 0 26px 63px;
+ 	padding: 12px 0 16px 63px;
  }
 
  .mak {
@@ -6863,16 +6863,24 @@ text-overflow: ellipsis;
  }
 
  .l-gg strong {
- 	color: #a2a3a3;
- 	font-family: "ProximaNovaBlack";
+ 	color: #111011;
+ 	font-family: "ProximaNovaRegular";
  	letter-spacing: 0.47px;
  	display: inline-block;
- 	margin-top: 11px;
+ 	margin-top: 9px;
  	margin-right: 12px;
  	margin-left: 12px;
+	font-size: 12px;
  }
  .l-gg span {
  	color: #b5b0b6;
+ 	font-family: "ProximaNovaLight";
+ 	font-size: 13px;
+ 	font-weight: 300;
+ 	letter-spacing: 0.33px;
+ }
+.l-gg i {
+ 	color: #bdb7bd;
  	font-family: "ProximaNovaLight";
  	font-size: 13px;
  	font-weight: 300;
@@ -6885,6 +6893,7 @@ text-overflow: ellipsis;
  	background-size: contain;
  	height: 92px;
  	padding: 0;
+	 
  }
  .bnre a {
  	display: block;
@@ -8794,24 +8803,24 @@ text-overflow: ellipsis;
  .sl-c .slick-next{
  	width: 45px;
     height: 45px;
-    background-color: rgba(219, 213, 228, 0.7);
+    background: none;
     border-radius: 50%;
     font-size: 0;
     border:none;
     position: absolute;
     z-index: 10;
     top: 50%;
-    transform: translateY(-50%);
+    
     cursor: pointer;
     outline: none;
  }
  .sl-c .slick-prev:not(.slick-disabled):hover,
  .sl-c .slick-next:not(.slick-disabled):hover{
- 	background-color: #852d91;
-    background-image: linear-gradient(45deg, #312a6c 0%, #852d91 100%);
- }
+background: none;
+}
   .sl-c .slick-prev{
-  	left: 0;
+  	left: -47px;
+	  top: 7px;
   }
  .sl-c .slick-prev:before{
  	cursor: pointer;
@@ -8819,14 +8828,14 @@ text-overflow: ellipsis;
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%,-50%);
-    width: 11px;
-    height: 22px;
-    background: url(../img/lleft.png) no-repeat center center;
+    width: 7px;
+    height: 11px;
+    background: url(../img/lstrelblack.png) no-repeat center center;
     
  }
  .sl-c .slick-next{
- 	right: 0;
+ 	right: -47px;
+	   top: 7px;
  }
  .sl-c .slick-next:before{
  	cursor: pointer;
@@ -8834,10 +8843,9 @@ text-overflow: ellipsis;
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%,-50%);
-    width: 11px;
-    height: 22px;
-    background: url(../img/rrig.png) no-repeat center center;
+    width: 7px;
+    height: 11px;
+    background: url(../img/rstrelblack.png) no-repeat center center;
  }
  .sl-c img {
  	margin: 0 auto;
@@ -9142,11 +9150,11 @@ label.lof>.selectbox {
     }
 
     .slider-for {
-    	width: 77%;
+
    		margin-left: auto;
 		margin-right: auto;
-		padding-left: 20px;
-		padding-right: 20px;
+
+
 		box-sizing: border-box;
     }
     .slider-for img {
@@ -9179,16 +9187,21 @@ label.lof>.selectbox {
 	    opacity: 1;    
 	}
     .slider-nav .im-c {
-		margin-bottom: 15px;
+		
     	cursor: pointer;
 
     }
 
     .slider-nav .im-c img{
 		max-width: 100%;
-		height: 100px;
+		height: 50px;
+		width: 50px;
 		object-fit: cover;
     }
+.newcard .slider-nav{
+	max-width: 250px;
+	margin: 30px auto;
+}
 
    .sl-c .slider-nav button{
 		display: inline-block !important;
@@ -12873,10 +12886,10 @@ label.check + .check {
   margin-left: 20px;
 }
 .slider-nav .slick-slide{
-	margin: 0 10px;
+	
 }
 .slider-nav .slick-list{
-	margin: 0 -10px;
+	margin: 0 0 0 10px;
 }
 
 .wr-csl.spacefix{
@@ -13318,10 +13331,11 @@ background: url(../img/sortabsentblock.png) no-repeat;
     right: auto;
 		}		
 		.slider-nav.slick-initialized .slick-slide{
+			padding: 5px;
 			border: 1px solid transparent;
 		}
 		.slider-nav.slick-initialized .slick-current{
-			border: 1px solid #000;
+			border: 1px solid #cdcdcd;
 		}
 		
 		.nktitle{
@@ -13329,7 +13343,10 @@ background: url(../img/sortabsentblock.png) no-repeat;
 			font-size: 36px;
 			color: #111011;
 		}		
-		
+		.nktitle span{
+			display: block;
+			margin-top: 5px;
+		}
 		.nkprice{	
 			margin: 20px 0 20px 0;
 		  font-family: 'RobotoBlack';
@@ -13377,8 +13394,8 @@ font-family: 'RobotoBlack';
 			margin: 20px 0 20px 0;
 			display: flex;
 			align-items: center;
-						font-family: "ProximaNovaBold";
-font-weight: 400;
+						font-family: "ProximaNovaRegular";
+font-weight: 600;
 		}
 		.tovar_count input{
 			font-size: 24px;;
@@ -13405,6 +13422,9 @@ width: 30px;
 			box-sizing: border-box;
 			cursor: pointer;
 		}
+		.tovar_count .minus{
+		line-height: 20px;	
+		}
 		.newbtn{	
 	background-color: #852d91;
  	/*background-image: linear-gradient(45deg, #312a6c 0%,#462b75 50%, #852d91 100%);*/
@@ -13426,6 +13446,15 @@ width: 30px;
 			padding: 9px 50px 0 50px;
 			display: inline-block;
 		}
+		.fontst{
+			font-family: "ProximaNovaRegular";
+			font-size: 15px;;
+		}
+		.btnblock .newbtn{
+			padding-left: 60px;
+			padding-right: 60px;
+			border-radius: 25px;
+		}
 		.btnblockb1{
 			color: #909090;
 			background: url(../img/cardico2.png) no-repeat center left;
@@ -13434,6 +13463,7 @@ width: 30px;
 			padding-left: 25px;
 			display: inline-block;
 			margin: 0 5px 0 5px;
+			font-weight: 600;
 		}
 		.btnblockb2{
 			color: #909090;
@@ -13442,7 +13472,8 @@ width: 30px;
 			font-size: 12px;
 			padding-left: 25px;
 			display: inline-block;
-			margin: 0 5px 0 5px;
+			margin: 0 0px 0 10px;
+			font-weight: 600;
 		}
 		.opinion{
 			font-size: 14px;;
@@ -13513,9 +13544,33 @@ width: 30px;
 		}
 		.besttestom{
 			margin: 30px 0 30px 0;
+			position: relative;
+		}
+		.besttestom.active ul{
+			display: block;
+		}
+		.besttestom ul{
+			display: none;
+			position: absolute;
+			top: 20px;
+			left: 0px;
+			border: 1px solid #000;
+			padding: 5px;
+		}
+		.besttestom ul li{
+			margin-bottom: 5px;
+		}
+		.besttestom ul li a{
+			color: #852d91;
+			font-family: "ProximaNovaRegular";
+			font-size: 12px;
+			
 			
 		}
-		.besttestom a{
+		.besttestom ul li a:hover{
+			color: blue;
+		}
+		.besttestom .besttestomlink{
 			display: inline-block;
 			position: relative;
 			color: #852d91;
@@ -13673,6 +13728,17 @@ width: 30px;
 						padding-left: 35px;
 			padding-right: 35px;
 
+		}
+		
+		@media (max-width: 1024px){
+			.ontop{
+				display: none;
+			}
+		} 
+		@media (min-width: 1261px)  and (max-width: 1460px) {
+			.ontop{
+				right: -27px;
+			}
 		}
 		@media (max-width: 1200px) {
 			.colnk1{
