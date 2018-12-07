@@ -6727,6 +6727,7 @@ text-overflow: ellipsis;
  	float: left;
  	border-right: 1px solid #dddddd;
  	padding-right: 12px;
+	 margin-right: 12px;
  }
 
  .ban-h {
@@ -6875,7 +6876,7 @@ text-overflow: ellipsis;
  	display: inline-block;
  	margin-top: 9px;
  	margin-right: 12px;
- 	margin-left: 12px;
+ 	
 	font-size: 12px;
  }
  .l-gg span {
@@ -13462,6 +13463,7 @@ width: 30px;
 			border-radius: 25px;
 		}
 		.btnblockb1{
+			font-family: "ProximaNovaRegular";
 			color: #909090;
 			background: url(../img/cardico2.png) no-repeat center left;
 			height: 18px;
@@ -13472,6 +13474,7 @@ width: 30px;
 			font-weight: 600;
 		}
 		.btnblockb2{
+			font-family: "ProximaNovaRegular";
 			color: #909090;
 			background: url(../img/cardico3.png) no-repeat center left;
 			height: 18px;
@@ -13556,19 +13559,19 @@ width: 30px;
 			display: block;
 		}
 		.besttestom ul{
-			background: #ccc;
+			background: #f8f8f8;
 			display: none;
 			position: absolute;
 			top: 25px;
 			left: 0px;
-			border: 1px solid #000;
+			border: 1px solid #852d91;
 			padding: 5px;
 		}
 		.besttestom ul li{
 			margin-bottom: 5px;
 		}
 		.besttestom ul li a{
-			color: #852d91;
+			color: #000;
 			font-family: "ProximaNovaRegular";
 			font-size: 12px;
 			
