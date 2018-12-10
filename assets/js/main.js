@@ -13,6 +13,7 @@ $(document).ready(function(){
 		$(".graddoubletext").removeClass("active");
 	});
 	
+	$('.likes').raty();
 	
 	
 	$(".besttestom i").click(function (e){
