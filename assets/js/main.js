@@ -33,6 +33,33 @@ $(document).ready(function(){
 			return false;
 		});
 	 
+
+		var $countChangerBtn = $('.korz_count .minus, .korz_count .plus');
+		$countChangerBtn.on('click', function(){
+			var $this = $(this),
+				count = parseInt($this.parent().find('input').val()),
+				min = $this.data('min'),
+				max = $this.data('max');
+
+			if (!count){
+				count=0;
+			}
+
+			if ($this.hasClass('minus')){
+				count--;
+				if (count < min){
+					return;
+				}
+				$this.parent().find('input').val(count);
+			} else {
+				count++;
+				if (count > max){
+					return;
+				}
+				$this.parent().find('input').val(count);
+			}
+		});
+	
 	
 			$('.slider-for').on('init', function(event, slick, direction){
 										  console.log(slick);
