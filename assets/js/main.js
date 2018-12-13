@@ -48,10 +48,13 @@ $(document).ready(function(){
 			if ($this.hasClass('minus')){
 				count--;
 				if (count < min){
+					$this.addClass('minvalue');
 					return;
+				
 				}
 				$this.parent().find('input').val(count);
 			} else {
+				$this.parent().find(".minus").removeClass('minvalue');
 				count++;
 				if (count > max){
 					return;
