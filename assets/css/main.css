@@ -13830,18 +13830,18 @@ font-family: 'RobotoBlack';
 		}
 		.korz_count .minus,.korz_count .plus{
 			width: 32px;
-			height: 32px;
+			height: 30px;
 			border: 1px solid #9b57a6;
 			color: #9b57a6;
 			border-radius: 50%;
 			font-size: 30px;
-			line-height: 32px;
+			line-height: 30px;
 			text-align: center;
 			box-sizing: border-box;
 			cursor: pointer;
 		}
 		.korz_count .minus{
-		line-height: 27px;	
+		line-height: 25px;	
 		}
 		.korz_count .minus.minvalue{
 			border: 1px solid #c2c2c2;
