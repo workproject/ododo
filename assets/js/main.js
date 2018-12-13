@@ -33,7 +33,13 @@ $(document).ready(function(){
 			return false;
 		});
 	 
-
+	
+	
+	$(".promobonus1").keyup(function (){
+		
+		if($(".promobonus1").val().length<=0) $(".promobonus2").removeClass("active"); else $(".promobonus2").addClass("active");
+	});
+	
 		var $countChangerBtn = $('.korz_count .minus, .korz_count .plus');
 		$countChangerBtn.on('click', function(){
 			var $this = $(this),
