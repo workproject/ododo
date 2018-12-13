@@ -161,7 +161,7 @@
 				<div class="wrapper wrapperkorz clearfix">
 				<div class="row">
 					<div class="col-lg-8 col-xl-8 col-md-12">
-						<div class="korztitle1 clearfix"><span>в корзине 4 товара</span> <a href="">Удаленные товары<i>4</i></a></div>
+						<div class="korztitle1 clearfix"><span>в корзине 4 товара</span> <a href="#" class="korzina_popup">Удаленные товары<i>4</i></a></div>
 						<div class="korzline">
 							<div class="korzlinecol1">
 								<table>
@@ -1017,6 +1017,24 @@
 			}
 		}
 	</style>
+
+
+
+	<script>
+$(document).ready(function(){
+$('.korzina_popup').click(function(){
+$.fancybox.open(
+	[{
+		src: 'korzina_new3popup.html',
+		type:'ajax',
+		touch:false
+	}]
+	)
+	return false;
+});
+});
+	</script>
+
 
 	<script src="assets/js/jquery.selectbox.min.js"></script>
 	<script src="assets/js/jquery.bxslider.min.js"></script>
