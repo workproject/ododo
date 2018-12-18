@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="assets/css/swiper.min.css">
 	<link rel="stylesheet" href="assets/css/main.css">
 	<link rel="stylesheet" href="assets/css/jquery.raty.css">
+	<link rel="stylesheet" href="assets/css/dropzone.css">
 	
 	
 
@@ -163,7 +164,12 @@
 			<div class="testonazv3">Заголовок отзыва<span>*</span></div>
 			<input type="text" placeholder="Заголовок">
 			<div class="testonazv3">Добавить фотографии (до 2МБ)</div>
-			<a href="">Загрузить</a>
+			<!--<a href="">Загрузить</a>-->
+<form action="/file-upload" class="dropzone">
+  <div class="fallback">
+    <input name="file" type="file" multiple />
+  </div>
+</form>
 			<a class="finishbut">Добавить отзыв</a>
 		</div>
 				
@@ -329,6 +335,7 @@
 	<script src="assets/js/jquery.zoom.min.js"></script>
 	<script src="assets/js/swiper.js"></script>
 	<script src="assets/js/jquery.raty.js"></script>
+	<script src="assets/js/dropzone.js"></script>
 	<script src="assets/js/main.js"></script>
 </body>
 </html>
