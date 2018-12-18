@@ -13149,6 +13149,17 @@ margin: 25px 0 15px 0;
   top: 50%;
   margin-top: -15px;
 }
+		
+		.fontst.tith3{
+			margin: 0;
+			border: none;
+			padding: 0;
+		}
+		.fontst .dflx{
+			justify-content: flex-start;
+		}
+		
+		
 	.titcardh3 .pagestit{
   position: absolute;
   right: 0;
@@ -14367,7 +14378,7 @@ margin: 0px 0 20px 0;
 		.fingers{
 			text-align: center;
 		}
-		.fingers a{
+		.fingers span{
 			width: 168px;
 			height: 168px;
 			display: inline-block;
@@ -14376,10 +14387,20 @@ margin: 0px 0 20px 0;
 			background: url(../img/fingerup.png) no-repeat;
 			
 		}
+		.fingerdown.active{
+			background: url(../img/fingerup2.png) no-repeat;
+			
+		}
+		
 		.fingerup{
+			background: url(../img/fingerdown2.png) no-repeat;
+			
+		}
+		.fingerup.active{
 			background: url(../img/fingerdown.png) no-repeat;
 			
 		}
+		
 		.opinion{
 			text-align: center;
 	color: #000;
