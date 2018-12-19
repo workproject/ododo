@@ -15,6 +15,15 @@ $(document).ready(function(){
 	
 	$('.likes').raty();
 	
+	$('.starstestom').raty({
+  starOff : '_star-off.png',
+  starOn  : '_star-on.png',
+		click: function(score, evt) {
+    //alert('ID: ' + this.id + "\nscore: " + score + "\nevent: " + evt);
+			window.location.href="testom3.html";
+  }
+});
+	
 	
 	$(".besttestom i").click(function (e){
 		e.preventDefault();
