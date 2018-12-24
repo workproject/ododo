@@ -326,6 +326,9 @@ font-size:inherit;
 margin:0 2px;
 color:inherit;
 position:relative;
+	    background-image: none;
+    -webkit-background-clip: unset;
+    -webkit-text-fill-color: unset;
 }
 
 .rub:after{
@@ -337,7 +340,7 @@ height:8%;
 top:auto;
 bottom:25%;
 left:-5%;
-background:blue;
+background:#852D91;
 }
 h4 {
 	position: absolute;
@@ -9877,13 +9880,7 @@ label.lof>.selectbox {
     	line-height: 30px;
     }
 
-    .rub {
-    	color: #656565;
-    	font-family: "RobotoBold";
-    	font-size: 13px;
-    	margin-left: 6px;
-    	display: inline-block;
-    }
+    
 
     .adp {
     	width: 137px;
