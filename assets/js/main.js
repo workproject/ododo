@@ -24,6 +24,11 @@ $(document).ready(function(){
   }
 });
 	
+	$(".stt1 a").click(function (e){
+		e.preventDefault();
+		$(this).toggleClass("active");
+		$(".stt1hideonmob").toggleClass("active");
+	});
 	
 	$(".besttestom i").click(function (e){
 		e.preventDefault();

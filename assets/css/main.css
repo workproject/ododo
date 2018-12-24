@@ -14294,6 +14294,18 @@ width: 30px;
 			margin: 0 0px 0 10px;
 			font-weight: 600;
 		}
+		.btnblockb2.active{
+			color: #852d91;
+		}
+		.stt1{
+			margin: 20px 0 20px 0;
+			text-align: center;
+			text-decoration: underline;
+			display: none;
+		}
+		.stt1:hover{
+			text-decoration: none;
+		}
 		.opinion{
 			font-size: 14px;;
 				font-family: "ProximaNovaRegular";
@@ -14727,6 +14739,15 @@ margin: 0px 0 20px 0;
 			}
 		}
 		@media (max-width: 768px) {
+			.stt1{
+				display: block;
+			}
+			.stt1hideonmob,.stt1.active{
+				display: none;
+			}
+			.stt1hideonmob.active{
+				display: block;
+			}
 				.btnblockb1{
 		margin: 10px 5px 10px 5px;
 	}
