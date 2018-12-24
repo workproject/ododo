@@ -321,12 +321,23 @@ ul.bxslider {
 	display: -o-flex;
 	display: flex;	
 }
-.rub {
-  vertical-align: middle;
-  border-bottom: 1px solid;
-  line-height: 5px;
-  display: inline-block;
-  width: 0.4em;
+.rub{
+font-size:inherit;
+margin:0 2px;
+color:inherit;
+position:relative;
+}
+
+.rub:after{
+content:"";
+position:absolute;
+display:inline-block;
+width:80%;
+height:8%;
+top:auto;
+bottom:25%;
+left:-5%;
+background:blue;
 }
 h4 {
 	position: absolute;
@@ -359,7 +370,10 @@ h4 {
 }
 
 
-
+#title-search{
+	position: relative;
+	z-index: 5;
+}
 
 .wat-s {
 	border-left: 1px solid #852d91 !important;
@@ -5891,7 +5905,7 @@ margin: 0 10px 0 10px;
  	height: 12px;
  	margin: 0 auto;
  	position: relative;
- 	top: 12px;
+ 	top: 17px;
  }
 
 
@@ -5905,8 +5919,13 @@ margin: 0 10px 0 10px;
  	height: 12px;
  	margin: 0 auto;
  	position: relative;
- 	top: 12px;
+ 	top: 17px;
  }
+
+.poginas .next span,
+.poginas .prev span{
+	top: 12px;
+}
 
  .bx-wrapper {
  	border: none;
@@ -9641,6 +9660,12 @@ label.lof>.selectbox {
     	color: #852d91;
     	font-size: 16px;
     }
+	.wr-odf .l-i .bg-a a:hover,
+	.ppo .l-i .bg-a a:hover
+	{
+    	color: #852d91!important;
+    	text-decoration: underline!important;
+    }
 
     .ch-c .galka {
     	width: 37px;
@@ -11580,6 +11605,7 @@ label.lof>.selectbox {
 
     	.menu {
     		padding-right: 0;
+			z-index: -1;
     	}
 
     	.menu ul a {
@@ -13128,6 +13154,8 @@ padding: 1px 0;
   margin-right: 25px;
   width: 140px;
   display: inline-block;
+	position: relative;
+	z-index: 115;
 }
 .lf1 {
   padding-right: 0;
@@ -13973,9 +14001,7 @@ background: url(../img/sortabsentblock.png) no-repeat;
 	.slds .priceorig{
 		float: right;
 	}
-	.btnblockb1{
-		margin: 10px 5px 10px 5px;
-	}
+
 	.ban-h{
 		padding-right: 0;
 	}
@@ -14701,6 +14727,9 @@ margin: 0px 0 20px 0;
 			}
 		}
 		@media (max-width: 768px) {
+				.btnblockb1{
+		margin: 10px 5px 10px 5px;
+	}
 			.korztitle1 a{
 				margin-top: 10px;
 			}
@@ -14741,7 +14770,9 @@ margin: 0px 0 20px 0;
 				width: 100%;
 			}
 			.promokorz1{
-				width: 42%;
+				width: 60%;
+				margin-left: 17px;
+				font-size: 6px;
 			}
 			.korzline .slds .priceorig {
 	font-size: 17px;
@@ -14757,4 +14788,13 @@ margin: 0px 0 20px 0;
 				font-size: 14px;
 				line-height: 16px;
 			}
+		}
+@media (max-width: 380px) {		
+	.smal_r	.l-i .bg-a a{
+		margin-top: 10px;
+		
+	}	
+	.smal_r .cart{
+		margin-top: 5px;
+	}
 		}
