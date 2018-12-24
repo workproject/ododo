@@ -321,11 +321,11 @@ ul.bxslider {
 	display: -o-flex;
 	display: flex;	
 }
+
 .rub{
 font-family: 'RobotoBlack';	
 font-size:inherit;
 margin:0 2px;
-color:#852D91;
 position:relative;
 background: none;
 -webkit-background-clip: initial;
@@ -344,6 +344,27 @@ bottom:25%;
 left:-5%;
 background:#852D91;
 }
+
+.slds .priceorig span{
+	color: #852D91;
+}
+.slds .priceorig span:after{
+	background:#852D91;
+}
+.slds .action .priceorig span{
+	color: red;
+}
+.slds .action .priceorig span:after{
+	color: red;
+}
+.slds .pricedisc span:after{
+	color: #a0a0a0;
+}
+.slds .pricedisc span{
+	color: #a0a0a0;
+}
+
+
 h4 {
 	position: absolute;
 	color: #852d91;
@@ -3725,6 +3746,22 @@ padding-right: 7px;
  	}
  }
  @media (min-width: 768px) {
+	 .col-md-12.nopadl{
+	padding-right: 0;
+	
+	flex: 0 0 47%;
+max-width: 47%;
+}
+.col-md-12.nopadr{
+	padding-right: 15px;
+	
+	flex: 0 0 53%;
+max-width: 53%;
+}
+.col-md-12.nopadr{
+	padding-left: 20px;
+}
+
  	.container {
  		max-width: 720px;
  	}
@@ -13987,6 +14024,7 @@ background: url(../img/sortabsentblock.png) no-repeat;
   }
 }
 @media (max-width: 768px) {
+	
 	.korzpadding{
 		padding-left: 40px;
 	}
@@ -14129,17 +14167,179 @@ background-image: linear-gradient(90deg,#312A6C 0%,#852D91 100%);
 position:relative;
 display:inline-block; /*required*/		
 }
+		.smlk1{
+			background: url(../img/smalllike2.png) no-repeat;
+			width: 40px;
+			height: 39px;
+			display: inline-block;
+			font-family: "ProximaNovaBold";
+			font-size: 13px;;
+			color: #999999;
+			box-sizing: border-box;
+			float: left;
+			padding: 6px 13px 0 3px;
+			text-align: center;
+			margin-top: 5px;
+		}
+		.smlk2{
+			background: url(../img/smalllike1.png) no-repeat;
+			width: 40px;
+			height: 39px;
+			display: inline-block;
+			font-family: "ProximaNovaBold";
+			font-size: 13px;;
+			color: #462b75;
+			box-sizing: border-box;
+			float: left;
+			padding: 21px 7px 0 14px;
+			text-align: center;
+			margin-top: -10px;
+		}
+		.smalllikes{
+			float: left;
+			width: 120px;
+			display: inline-block;
+		}
+		.smalllikes span{
+			float: left;
+			display: inline-block;
+			font-family: "ProximaNovaBold";
+			font-size: 33px;;
+			color: #999999;
+			margin: 0 10px 0 10px;
+			
+		}
+		
+		.linerazm{
+			font-family: "ProximaNovaBold";
+			font-size: 9px;;
+			color: #999999;
+			text-align: right;
+			background: url(../img/lineka.png) no-repeat;
+			
+			height: 33px;
+			display: inline-block;
+			padding: 11px 0 0 24px;
+		}
+		
 		.nkprice span{		
 		font-size: 24px;
 margin-left: 5px;
 font-family: 'RobotoBlack';
 		font-weight: bold;}
 		
+		.razmblocklinewrap{
+			position: relative;
+		}
+		.windowrazm b{
+			font-family: "ProximaNovaBold";
+		}
+		.windowrazm.active{
+			display: flex;
+		}
+		.windowrazm{
+			display: none;
+			width: 280px;
+			font-family: "ProximaNovaRegular";	
+-webkit-box-shadow: 0px 0px 19px 7px #f0f0f0;
+-moz-box-shadow: 0px 0px 19px 7px #f0f0f0;
+box-shadow: 0px 0px 19px 7px #f0f0f0;
+			border-radius: 15px;
+			position: absolute;
+			bottom: 43px;
+			left: 50%;
+			margin-left: -140px;
+			padding: 20px;
+			background: #fff;
+			color: #000;
+			font-size: 16px;
+			line-height: 24px;
+			
+			justify-content: center;
+			flex-wrap: wrap;
+		}
+		.windowrazm i{		
+		border: 10px solid transparent; border-top: 10px solid #fff; 
+			display: block;
+			position: absolute;
+			bottom: -19px;
+
+left: 47%;
+			
+				
+}
+		
+		
+		.windowrazm span{
+			display: inline-block;
+			margin: 0 6px;
+		}
+		.windowrazm a{
+			color: #000;
+			font-size: 16px;
+			line-height: 24px;
+display: inline-block;			
+		}
+		.razmmain{
+			cursor: pointer;
+			font-family: "ProximaNovaBold";
+			font-size: 20px;;
+			display: inline-block;
+			padding: 5px 0 5px 0;
+			border-bottom: 1px solid #b0b0b0;
+			border-top: 1px solid #b0b0b0;
+		}	
+		.razmtit{
+			font-family: "ProximaNovaBold";
+			font-size: 14px;;
+			float: left;
+		}
+		.razmblockline1{
+			
+			margin: 20px 0 20px 0;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			
+		}
+		.razmblockline1gr{
+			color: #b0b0b0;
+			font-family: "ProximaNovaBold";
+			font-size: 20px;;
+		}
+		.razmblockline2{
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			
+		}
+		.colors{
+			padding-left: 10px;
+			float: left;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: left;
+		}
+		.colors a{
+			display: inline-block;
+			padding: 2px 2px 0 2px;
+			margin:0 3px 6px 3px;
+			border: 2px solid #e6e6e6;
+		}
+		.colors i{
+			display: inline-block;
+			width: 28px;
+			height: 23px;
+			
+		}
+		.colors a.active,.colors a:hover{
+			border: 2px solid #3a2a70;
+		}
 		.ballblock{
 			background: #f8f8f8;
 			padding: 20px 30px 20px 30px;
 			font-family: "ProximaNovaExtrabold";
-			font-size: 26px;
+			font-size: 20px;
 			color: #111011;
 		}		
 		.ballblockhr{
@@ -14305,14 +14505,7 @@ width: 30px;
 		.stt1:hover{
 			text-decoration: none;
 		}
-		.opinion{
-			font-size: 14px;;
-				font-family: "ProximaNovaRegular";
-			color: #111011;
-		}
-		.opinion b{
-			font-family: "ProximaNovaBold";
-		}
+		
 		.nktitle2{
 			font-family: "ProximaNovaBold";
 			color: #111011;
@@ -14657,14 +14850,23 @@ margin: 0px 0 20px 0;
 			
 		}
 		
+		
 		.opinion{
-			text-align: center;
-	color: #000;
-	font-size: 14px;
+			color: #000;
+			float: left;
+			display: inline-block;
+			font-size: 14px;;
+				font-family: "ProximaNovaRegular";
+			color: #111011;
+			width: 160px;
+			padding-left: 10px;
 			line-height: 16px;
-	font-family: "ProximaNovaRegular";
-margin: 0px 0 20px 0;
+			margin: 0px 0 20px 0;
 		}
+		.opinion b{
+			font-family: "ProximaNovaBold";
+		}
+		
 		.fototestom{
 			max-width: 330px;
 			margin: 70px auto 40px auto;
@@ -14738,6 +14940,9 @@ margin: 0px 0 20px 0;
 			}
 		}
 		@media (max-width: 768px) {
+			.wrp2 {
+				margin-top: 40px;
+			}
 			.stt1{
 				display: block;
 			}

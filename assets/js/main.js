@@ -24,6 +24,32 @@ $(document).ready(function(){
   }
 });
 	
+	
+	$(".razmmain").click(function (e){
+		e.preventDefault();
+		$(".windowrazm").toggleClass("active");
+	});
+	$(".windowrazm a").click(function (e){
+		e.preventDefault();
+		var razm=$(this).find("b").html();
+		$(".windowrazm").toggleClass("active");
+		$(".razmmain").html(razm);
+		$(".inprazm").val(razm);
+		
+		
+	});
+$(".colors a").click(function (e){
+		e.preventDefault();
+		$(".colors a").removeClass("active");
+	$(this).addClass("active");
+	var razm=$(this).attr("rel");
+	$(".inpcolor").val(razm);
+		
+	});
+
+	
+	
+	
 	$(".stt1 a").click(function (e){
 		e.preventDefault();
 		$(this).toggleClass("active");
