@@ -322,13 +322,15 @@ ul.bxslider {
 	display: flex;	
 }
 .rub{
+font-family: 'RobotoBlack';	
 font-size:inherit;
 margin:0 2px;
-color:inherit;
+color:#852D91;
 position:relative;
-	    background-image: none;
-    -webkit-background-clip: unset;
-    -webkit-text-fill-color: unset;
+background: none;
+-webkit-background-clip: initial;
+-webkit-text-fill-color: initial;
+	
 }
 
 .rub:after{
