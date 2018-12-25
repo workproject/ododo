@@ -322,6 +322,25 @@ ul.bxslider {
 	display: flex;	
 }
 
+.razmtable{
+margin: 20px;
+	width: 100%;
+	
+font-size: 14px;	
+}
+.razmtable td{
+	font-family: "ProximaNovaRegular";
+text-align: center;
+	padding: 15px;
+}
+.razmtable th{
+	text-align: center;
+	font-family: "ProximaNovaBold";
+	padding: 15px;
+}
+.razmtable tr:nth-child(2n) td{
+	background: #f8f8f8;
+}
 .rub{
 font-family: 'RobotoBlack';	
 font-size:inherit;
@@ -7141,13 +7160,13 @@ border-radius: 20px 20px 0px 0px;
  	font-size: 18px;
 	margin-bottom: 20px;
 	width: 100%;
-background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZGllbnQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojMzEyQTZDOyIgLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM4NTJEOTE7IiAvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IGZpbGw9InVybCgjZ3JhZGllbnQpIiBoZWlnaHQ9IjEwMCUiIHdpZHRoPSIxMDAlIiAvPjwvc3ZnPg==);
+color:#312A6C;/*ie*/
 background-image: -webkit-gradient(linear, left top, 90deg, color-stop(0%, #312A6C), color-stop(100%, #852D91));
 background-image: -moz-linear-gradient(90deg,#312A6C 0%,#852D91 100%);
 background-image: -webkit-linear-gradient(90deg,#312A6C 0%,#852D91 100%);
 background-image: -o-linear-gradient(90deg,#312A6C 0%,#852D91 100%);
-background-image: -ms-linear-gradient(90deg,#312A6C 0%,#852D91 100%);
-background-image: linear-gradient(90deg,#312A6C 0%,#852D91 100%);
+/*background-image: -ms-linear-gradient(90deg,#312A6C 0%,#852D91 100%);*/
+/*background-image: linear-gradient(90deg,#312A6C 0%,#852D91 100%);*/
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 position:relative;
@@ -13223,13 +13242,13 @@ padding: 1px 0;
   font-size: 30px;
   float: left;
 	
-background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZGllbnQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojMzEyQTZDOyIgLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM4NTJEOTE7IiAvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IGZpbGw9InVybCgjZ3JhZGllbnQpIiBoZWlnaHQ9IjEwMCUiIHdpZHRoPSIxMDAlIiAvPjwvc3ZnPg==);
+color:#312A6C;/*ie*/
 background-image: -webkit-gradient(linear, left top, 90deg, color-stop(0%, #312A6C), color-stop(100%, #852D91));
 background-image: -moz-linear-gradient(90deg,#312A6C 0%,#852D91 100%);
 background-image: -webkit-linear-gradient(90deg,#312A6C 0%,#852D91 100%);
 background-image: -o-linear-gradient(90deg,#312A6C 0%,#852D91 100%);
-background-image: -ms-linear-gradient(90deg,#312A6C 0%,#852D91 100%);
-background-image: linear-gradient(90deg,#312A6C 0%,#852D91 100%);
+/*background-image: -ms-linear-gradient(90deg,#312A6C 0%,#852D91 100%);*/
+/*background-image: linear-gradient(90deg,#312A6C 0%,#852D91 100%);*/
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 position:relative;
@@ -13566,13 +13585,13 @@ box-shadow: 0px 0px 19px 7px #f0f0f0;
 			
 			font-family: "ProximaNovaExtraBold";	
 			font-size: 20px;
-background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZGllbnQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojMzEyQTZDOyIgLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM4NTJEOTE7IiAvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IGZpbGw9InVybCgjZ3JhZGllbnQpIiBoZWlnaHQ9IjEwMCUiIHdpZHRoPSIxMDAlIiAvPjwvc3ZnPg==);
+color:#312A6C;/*ie*/
 background-image: -webkit-gradient(linear, left top, 90deg, color-stop(0%, #312A6C), color-stop(100%, #852D91));
 background-image: -moz-linear-gradient(90deg,#312A6C 0%,#852D91 100%);
 background-image: -webkit-linear-gradient(90deg,#312A6C 0%,#852D91 100%);
 background-image: -o-linear-gradient(90deg,#312A6C 0%,#852D91 100%);
-background-image: -ms-linear-gradient(90deg,#312A6C 0%,#852D91 100%);
-background-image: linear-gradient(90deg,#312A6C 0%,#852D91 100%);
+/*background-image: -ms-linear-gradient(90deg,#312A6C 0%,#852D91 100%);*/
+/*background-image: linear-gradient(90deg,#312A6C 0%,#852D91 100%);*/
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 position:relative;
@@ -13616,13 +13635,13 @@ display:inline-block; /*required*/
  	text-align: center;
 text-decoration: underline;			
 			display: block;
-			background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZGllbnQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojMzEyQTZDOyIgLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM4NTJEOTE7IiAvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IGZpbGw9InVybCgjZ3JhZGllbnQpIiBoZWlnaHQ9IjEwMCUiIHdpZHRoPSIxMDAlIiAvPjwvc3ZnPg==);
+			color:#312A6C;/*ie*/
 background-image: -webkit-gradient(linear, left top, 90deg, color-stop(0%, #312A6C), color-stop(100%, #852D91));
 background-image: -moz-linear-gradient(90deg,#312A6C 0%,#852D91 100%);
 background-image: -webkit-linear-gradient(90deg,#312A6C 0%,#852D91 100%);
 background-image: -o-linear-gradient(90deg,#312A6C 0%,#852D91 100%);
-background-image: -ms-linear-gradient(90deg,#312A6C 0%,#852D91 100%);
-background-image: linear-gradient(90deg,#312A6C 0%,#852D91 100%);
+/*background-image: -ms-linear-gradient(90deg,#312A6C 0%,#852D91 100%);*/
+/*background-image: linear-gradient(90deg,#312A6C 0%,#852D91 100%);*/
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 position:relative;
@@ -13763,13 +13782,13 @@ margin-left: 45px;
 			
 			font-size: 14px;
 			font-family: "ProximaNovaBlack";	
-		background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZGllbnQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojMzEyQTZDOyIgLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM4NTJEOTE7IiAvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IGZpbGw9InVybCgjZ3JhZGllbnQpIiBoZWlnaHQ9IjEwMCUiIHdpZHRoPSIxMDAlIiAvPjwvc3ZnPg==);
+		color:#312A6C;/*ie*/
 background-image: -webkit-gradient(linear, left top, 90deg, color-stop(0%, #312A6C), color-stop(100%, #852D91));
 background-image: -moz-linear-gradient(90deg,#312A6C 0%,#852D91 100%);
 background-image: -webkit-linear-gradient(90deg,#312A6C 0%,#852D91 100%);
 background-image: -o-linear-gradient(90deg,#312A6C 0%,#852D91 100%);
-background-image: -ms-linear-gradient(90deg,#312A6C 0%,#852D91 100%);
-background-image: linear-gradient(90deg,#312A6C 0%,#852D91 100%);
+/*background-image: -ms-linear-gradient(90deg,#312A6C 0%,#852D91 100%);*/
+/*background-image: linear-gradient(90deg,#312A6C 0%,#852D91 100%);*/
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 position:relative;
@@ -14155,13 +14174,16 @@ background: url(../img/sortabsentblock.png) no-repeat;
 		  font-family: 'RobotoBlack';
   font-size: 30px;
 	
-background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZGllbnQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojMzEyQTZDOyIgLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM4NTJEOTE7IiAvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IGZpbGw9InVybCgjZ3JhZGllbnQpIiBoZWlnaHQ9IjEwMCUiIHdpZHRoPSIxMDAlIiAvPjwvc3ZnPg==);
+	
+
+color:#312A6C;/*ie*/
 background-image: -webkit-gradient(linear, left top, 90deg, color-stop(0%, #312A6C), color-stop(100%, #852D91));
 background-image: -moz-linear-gradient(90deg,#312A6C 0%,#852D91 100%);
 background-image: -webkit-linear-gradient(90deg,#312A6C 0%,#852D91 100%);
 background-image: -o-linear-gradient(90deg,#312A6C 0%,#852D91 100%);
-background-image: -ms-linear-gradient(90deg,#312A6C 0%,#852D91 100%);
-background-image: linear-gradient(90deg,#312A6C 0%,#852D91 100%);
+/*background-image: -ms-linear-gradient(90deg,#312A6C 0%,#852D91 100%);*/
+/*background-image: linear-gradient(90deg,#312A6C 0%,#852D91 100%);*/
+
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 position:relative;

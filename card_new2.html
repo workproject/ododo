@@ -1056,6 +1056,20 @@
 			}
 		}
 	</style>
+	<script>
+$(document).ready(function(){
+$('.linerazm').click(function(){
+$.fancybox.open(
+	[{
+		src: 'cardnew2popup.html',
+		type:'ajax',
+		touch:false
+	}]
+	)
+	return false;
+});
+});
+	</script>
 
 	<script src="assets/js/jquery.selectbox.min.js"></script>
 	<script src="assets/js/jquery.bxslider.min.js"></script>
