@@ -14292,9 +14292,10 @@ left: 47%;
 }
 		
 		
-		.windowrazm span{
+		.windowrazm a:after{
 			display: inline-block;
 			margin: 0 6px;
+			content: "|";
 		}
 		.windowrazm a{
 			color: #000;
