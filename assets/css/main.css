@@ -10112,7 +10112,9 @@ label.lof>.selectbox {
     #pg1 {
     	display: block;
     }
-
+.redprice {
+	color: red;
+}
     .red {
     	color: #f66060;
     	font-family: "ProximaNovaLight";
