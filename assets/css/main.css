@@ -405,8 +405,11 @@ background:#852D91;
 .korz_count_pice span:after {
 	background: #a0a0a0;
 }
-.nkprice span:after {
+.redaction .nkprice span:after {
 	background: red;
+}
+.redaction .nkprice span {
+	color: red;
 }
 
 h4 {
@@ -14203,7 +14206,18 @@ background: url(../img/sortabsentblock.png) no-repeat;
 	
 	
 
-color:red;
+color:#312A6C;/*ie*/
+background-image: -webkit-gradient(linear, left top, 90deg, color-stop(0%, #312A6C), color-stop(100%, #852D91));
+background-image: -moz-linear-gradient(90deg,#312A6C 0%,#852D91 100%);
+background-image: -webkit-linear-gradient(90deg,#312A6C 0%,#852D91 100%);
+background-image: -o-linear-gradient(90deg,#312A6C 0%,#852D91 100%);
+/*background-image: -ms-linear-gradient(90deg,#312A6C 0%,#852D91 100%);*/
+/*background-image: linear-gradient(90deg,#312A6C 0%,#852D91 100%);*/
+
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+position:relative;
+display:inline-block; /*required*/		
 }
 		.smlk1{
 			background: url(../img/smalllike2.png) no-repeat;
