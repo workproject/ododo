@@ -374,10 +374,10 @@ background:#852D91;
 	color: red;
 }
 .slds .action .priceorig span:after{
-	color: red;
+	background: red;
 }
 .slds .pricedisc span:after{
-	color: #a0a0a0;
+	background: #a0a0a0;
 }
 .slds .pricedisc span{
 	color: #a0a0a0;
