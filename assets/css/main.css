@@ -408,9 +408,19 @@ background:#852D91;
 .redaction .nkprice span:after {
 	background: red;
 }
+.redaction .nkprice{
+	color: red;
+	-webkit-background-clip: unset;
+-webkit-text-fill-color: unset;
+	background: none;
+}
 .redaction .nkprice span {
 	color: red;
 }
+.nkprice span {
+	color:#852D91;
+}
+
 
 h4 {
 	position: absolute;
