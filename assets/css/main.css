@@ -382,6 +382,23 @@ background:#852D91;
 .slds .pricedisc span{
 	color: #a0a0a0;
 }
+.cashback span:after {
+	background: #00ab08;
+}
+.deferred .slds .action .priceorig span{
+	color: #ff947f;
+	
+}
+.deferred .slds .action .priceorig span:after{
+	background: #ff947f;
+	
+}
+.deferred .slds .priceorig span{
+	color: #a595bb;
+}
+.deferred .slds .priceorig span:after{
+	color: #a595bb;
+}
 
 
 h4 {
