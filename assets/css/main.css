@@ -385,6 +385,9 @@ background:#852D91;
 .cashback span:after {
 	background: #00ab08;
 }
+.deferred .cashback span::after {
+	background: #7fd583;
+}
 .deferred .slds .action .priceorig span{
 	color: #ff947f;
 	
@@ -397,7 +400,7 @@ background:#852D91;
 	color: #a595bb;
 }
 .deferred .slds .priceorig span:after{
-	color: #a595bb;
+	background: #a595bb;
 }
 
 
