@@ -1431,6 +1431,10 @@ h4 {
   .fancybox-close-small:after {
   	content: "";
 	  background: none;
+	  width: 0;
+	  height: 0;
+	  line-height: 0;
+	  font-size: 0;
   }
 
   .fancybox-close-small:focus:after {
@@ -5614,7 +5618,7 @@ max-width: 53%;
  }
  .rig-i input[type=text] {
  	display: block;
- 	padding: 15px 0 14px 21px;
+ 	padding: 0px 0 0px 21px;
  	height: 40px;
  	width: 100%;
  	border: 1px solid #dbdbdb;
@@ -5623,6 +5627,7 @@ max-width: 53%;
  	font-size: 13px;
  	border-radius: 25px;
  	outline: none;
+	line-height: 40px;
  }
  .rig-i input[type=submit] {
  	width: 50px;
