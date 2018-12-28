@@ -364,7 +364,7 @@ left:-5%;
 background:#852D91;
 }
 
-.slds .priceorig span{
+.slds .priceorig span,.krbl5 span{
 	color: #852D91;
 }
 .slds .priceorig span:after{
@@ -373,8 +373,11 @@ background:#852D91;
 .slds .action .priceorig span{
 	color: red;
 }
-.slds .action .priceorig span:after{
+.slds .action .priceorig span:after,.krbl3 span:after{
 	background: red;
+}
+.krbl2 span:after{
+	background: #000;
 }
 .slds .pricedisc span:after{
 	background: #a0a0a0;
@@ -382,7 +385,7 @@ background:#852D91;
 .slds .pricedisc span{
 	color: #a0a0a0;
 }
-.cashback span:after {
+.cashback span:after,.krbl4 span:after{
 	background: #00ab08;
 }
 .deferred .cashback span::after {
@@ -5825,7 +5828,7 @@ max-width: 53%;
  .menu {
 	z-index: 110;
 	 position: relative;
- 	padding: 0;
+ 	
  	height: auto;
  }
 .rel{
@@ -11275,7 +11278,7 @@ label.lof>.selectbox {
     		margin-top: 20px;
     	}
 }
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 770px) and (max-width: 1199px) {
 
 	.smal_l,.smal_r{
 		display: flex;
@@ -11725,6 +11728,13 @@ label.lof>.selectbox {
     	}
     }
     @media (max-width: 768px) {
+		.owl-carousel .slds {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+		.inkart{
+			padding: 0 15px;
+		}
 		.ba{
 			padding-bottom: 40px;
 		}
@@ -13750,8 +13760,11 @@ margin-left: 45px;
 			width: 51px;
 			height: 30px;
 			margin: 4px 5px 0 0;
+			cursor: pointer;
 		}
-		
+		.promokorz2:hover{
+			opacity: 0.85;
+		}
 	
 	.promobonus:after {
  	content: "";
@@ -14094,9 +14107,7 @@ background: url(../img/sortabsentblock.png) no-repeat;
 	.ban-h{
 		padding-right: 0;
 	}
-	.l-gg{
-		padding: 12px 0 16px 3px;
-	}
+	
 	.lkio{
 		display: none;
 	}
@@ -15048,6 +15059,9 @@ margin: 0px 0 20px 0;
 			}
 		}
 		@media (max-width: 450px) {
+			.l-gg{
+		padding: 12px 5px 16px 5px;
+	}
 			.tabtel{
 				width: 217px;
 			}
