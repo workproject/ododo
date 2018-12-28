@@ -232,6 +232,11 @@ ul.bxslider {
 	z-index: 100;
 	display: none;	
 }
+.datepicker{
+    opacity: 0.5;
+    background: url(../img/calendar.png) no-repeat 97% center;
+   background-size: 22px;
+}
 
 .sp {
 	background-image: url(../img/sp.png);
