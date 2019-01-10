@@ -6858,17 +6858,17 @@ text-overflow: ellipsis;
 
  .ban-h {
  	margin-bottom: 55px;
- 	padding-right: 60px;
+ 	padding-right: 24px;
  	background-color: #f8f8f8;
  }
 .ban-hh {
  	margin-bottom: 40px;
- 	padding-right: 60px;
+ 	padding-right: 16px;
  	
  }
 
  .l-gg {
- 	padding: 21px 0 29px 37px;
+ 	padding: 10px 0 20px 37px;
  }
 
  .mak {
@@ -7071,7 +7071,7 @@ text-overflow: ellipsis;
 	
 }
 .actionpage{
-	max-width: 290px;
+	max-width: 307px;
 }
 .actionsstylebig .actionblocksmediuminfo {
 	position: absolute;
@@ -7099,12 +7099,12 @@ text-overflow: ellipsis;
 }
 .actionsstyle2{
 	
-	padding-right: 20px;
+	padding-right: 0px;
 }
 .actionsstyle3{
-	padding-left: 20px;
+	
 	padding-right: 0px;
-	padding-top: 25px;
+	padding-top: 33px;
 }
 
 .actionsstyle{
@@ -11295,6 +11295,22 @@ label.lof>.selectbox {
 	}
 }
     @media (max-width: 992px) {
+		
+		.actionsstyle2{
+	
+	padding-right:35px;
+		
+}
+.actionsstyle3{
+	
+	padding-right: 10px;
+	padding-top: 0px;
+}
+	.actionsstyle3 .actionblocksmedium {
+	padding: 0 10px;
+}
+
+
 		.actionsstylebig{
 			text-align: center;
 		}
@@ -13520,7 +13536,9 @@ margin: 0 10px 0 10px;
 		.wrapperkorz{
 			max-width: 1310px;
 		}	
-		
+		.wrapper.wrapperkorz{
+			width: 100%;
+		}
 		.deferred .korzlinecol1 h2{
 			color: #a3a3a3;
 		}
@@ -13980,7 +13998,7 @@ display:inline-block; /*required*/
   font-family: "ProximaNovaRegular";
 }
 .sometextblock h5 {
-  font-family: "ProximaNovaBlack";
+  font-family: "ProximaNovaBold";
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 16px;
@@ -14098,7 +14116,13 @@ background: url(../img/sortabsentblock.png) no-repeat;
   }
 }
 @media (max-width: 768px) {
-	
+	.actionsstyle{
+		padding-left: 35px;
+		padding-right: 35px;
+	}
+	.actionsstyle2{
+		padding-left: 66px;
+	}
 	.korzpadding{
 		padding-left: 40px;
 	}
@@ -15016,6 +15040,9 @@ margin: 0px 0 20px 0;
 			}
 		}
 		@media (max-width: 768px) {
+			.actionsstyle .h1{
+				text-align: center;
+			}
 			.wrp2 {
 				margin-top: 40px;
 			}
@@ -15068,6 +15095,13 @@ margin: 0px 0 20px 0;
 			}
 		}
 		@media (max-width: 450px) {
+			.actionsstyle2wrap{
+				padding-right: 0;
+			}
+			.actionsstyle2{
+		padding-left: 35px;
+				padding-right: 35px;
+	}
 			.l-gg{
 		padding: 12px 5px 16px 5px;
 	}
@@ -15103,7 +15137,15 @@ margin: 0px 0 20px 0;
 		margin-top: 5px;
 	}
 		}
-
+		
+@media (max-width: 1320px) {				
+		.l-gg {
+	padding: 9px 0 20px 57px;
+}
+	.actionpage{
+		padding-left: 57px;
+	}
+		}
 @media (min-width: 992px) and (max-width: 1160px) {				
 		.actionsstyle2wrap{
 	
