@@ -7115,6 +7115,10 @@ text-overflow: ellipsis;
 .actionsstyle .h1{
 	margin: 0 0 20px 0;
 }
+.actionsstyle .h1:first-child{
+	top:-10px;
+	margin: 0 0 10px 0;
+}
 .actionsstylebig .h1{
 	margin: 0 0 20px 60px;
 }
