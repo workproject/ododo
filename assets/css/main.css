@@ -10984,7 +10984,10 @@ label.lof>.selectbox {
     	.fgh {
     		padding: 0 30px;
     	}
-
+.wrapperkorz.fgh {
+    		padding: 0 0px;
+    	}
+		
     	.form .bb {
     		padding-top: 22.1%;
     	}
